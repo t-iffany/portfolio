@@ -4,13 +4,19 @@ import { staggerContainer } from '../utils/motion';
 
 // create a higher order Component, which will contain another component inside it
 // a function returning another function
-const SectionWrapper = (component, idName) =>
-function HOC() {
-  return (
-    <motion.section>
-      <Component />
-    </motion.section>
-  )
-}
+const SectionWrapper = (Component, idName) =>
+  function HOC() {
+    return (
+      <motion.section
+        variants={staggerContainer()}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true, amount: 0.25 }}
+        className={`${styles.padding} max-w-7xl mx-auto relative z-0`}
+      >
+        <Component />
+      </motion.section>
+    );
+  };
 
-export default SectionWrapper
+export default SectionWrapper;
