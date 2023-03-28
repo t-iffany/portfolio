@@ -2,6 +2,13 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { textVariant, fadeIn } from '../utils/motion';
+import { qualities } from '../constants';
+
+const QualityCard = ({ index, title, icon }) => {
+  return (
+    <p>{title}</p>
+  )
+}
 
 const About = () => {
   return (
@@ -22,6 +29,15 @@ const About = () => {
         collaboration, communication, and adaptability. Determined to develop and 
         optimize scalable websites and applications.
       </motion.p>
+
+      {/* add cards for Qualities component from index.js */}
+      <div className="mt-20 flex flex-wrap gap-10">
+        {qualities.map((quality, index) => (
+          <QualityCard key={quality.title} index=
+          {index} {...quality} />
+        ))}
+
+      </div>
     </>
   )
 }
