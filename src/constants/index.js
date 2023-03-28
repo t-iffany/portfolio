@@ -111,7 +111,7 @@ const experiences = [
   {
     title: "Informatics Specialist",
     company_name: "Vancouver Coastal Health",
-    icon: vch,
+    // icon: vch,
     iconBg: "#383E56",
     // date: "March 2020 - April 2021",
     points: [
@@ -125,7 +125,7 @@ const experiences = [
   {
     title: "Public Health Nurse",
     company_name: "Vancouver Coastal Health",
-    icon: vch,
+    // icon: vch,
     iconBg: "#E6DEDD",
     // date: "Jan 2021 - Feb 2022",
     points: [
@@ -152,7 +152,6 @@ const projects = [
     name: "ZenZone 3D",
     description:
       "Web-nWPlus cmd-f 24-hour Hackathon 2nd Place Winner out of 44 projects + Most Creative Use of Twilio Award + Best Use of Cohere API Award 3rd place",
-      "An interactive 3D game that promotes mental health and wellness, while providing a relaxing and calm atmosphere. We use Cohere's AI technology to reframe users' worries or stressors into positive and constructive affirmations. Users can explore the 3D environment using their avatar. Twilio API is used to send text notification reminders to users to be aware of their current emotional state and revisit the game - “Are you stressed? Visit ZenZone!”",
     tags: [
       {
         name: "react",
@@ -167,14 +166,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: zenzone,
+    // image: zenzone,
     source_code_link: "https://github.com/",
   },
   {
     name: "BinIt!",
     description:
       "RootHacks 12-hour Hackathon Winner of Best Project With At Least One Women-Identifying or Non-Binary Member on the Team (WiCS Women in Tech Award)",
-      "A full stack application that uses artificial intelligence (AI) to sort waste based on images. Users upload an image of their waste, then BinIt will use computer vision and machine learning algorithms to identify the type of waste and suggest the correct bin for disposal.",
     tags: [
       {
         name: "react",
@@ -189,14 +187,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: binit,
+    // image: binit,
     source_code_link: "https://github.com/",
   },
   {
     name: "PawHub",
     description:
       "A full stack application for pet owners to connect with other pet owners, find local pet resources, and learn about different breeds and pet care.",
-      "Includes: discussion board, explore page, map page, breed information page, video page",
     tags: [
       {
         name: "react",
@@ -211,7 +208,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: pawhub,
+    // image: pawhub,
     source_code_link: "https://github.com/",
   },
 ];
