@@ -20,7 +20,7 @@ const SectionWrapper = (Component, idName) =>
         {/* create invisible span section with empty space to create 
         effect for down-scroll icon */}
         <span className="hash-span" id={idName}>
-          &nsbp;
+          &nbsp;
         </span>
         <Component />
       </motion.section>
