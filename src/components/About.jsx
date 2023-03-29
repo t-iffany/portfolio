@@ -40,8 +40,8 @@ const About = () => {
     <>
       {/* animate the text when scrolling down */}
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>About me</p>
+        <h2 className={styles.sectionHeadText}>Strengths.</h2>
       </motion.div>
 
       {/* paragraph */}
