@@ -18,6 +18,10 @@ import {
   threejs,
 } from "../assets";
 
+import zenzonedemo from "../assets/zenzonedemo.mp4";
+import binitdemo from "../assets/binitdemo.mp4";
+import pawhubdemo from "../assets/pawhubdemo.mp4";
+
 export const navLinks = [
   {
     id: "about",
@@ -151,7 +155,7 @@ const projects = [
   {
     name: "ZenZone 3D",
     description:
-      "Web-nWPlus cmd-f 24-hour Hackathon 2nd Place Winner out of 44 projects + Most Creative Use of Twilio Award + Best Use of Cohere API Award 3rd place",
+      "nWPlus cmd-f 24-hour Hackathon 2nd Place Winner out of 44 projects + Most Creative Use of Twilio Award + Best Use of Cohere API Award 3rd place",
     tags: [
       {
         name: "react",
@@ -166,8 +170,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    // image: zenzone,
-    source_code_link: "https://github.com/",
+    demo: zenzonedemo,
+    source_code_link: "https://github.com/t-iffany/cmdf-2023",
   },
   {
     name: "BinIt!",
@@ -187,8 +191,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    // image: binit,
-    source_code_link: "https://github.com/",
+    demo: binitdemo,
+    source_code_link: "https://github.com/t-iffany/roothacks-project",
   },
   {
     name: "PawHub",
@@ -208,8 +212,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    // image: pawhub,
-    source_code_link: "https://github.com/",
+    demo: pawhubdemo,
+    source_code_link: "https://github.com/t-iffany/pawhub",
   },
 ];
 
