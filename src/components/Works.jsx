@@ -36,6 +36,7 @@ const Works = () => {
             <div key={project.name} className="flex flex-col md:flex-row mb-6 bg-[#5C9EAD] p-6 rounded-lg">
               {/* Video/GIF */}
               <div className="w-full md:w-9/20 bg-[#5C9EAD] overflow-hidden rounded-lg">
+                {project.demo.endsWith('.mp4') ?
                 <video width="100%" height="240" controls>
                   <source
                     src={project.demo}
@@ -43,6 +44,12 @@ const Works = () => {
                   />
                   Your browser does not support the video tag.
                 </video>
+                :
+                project.demo.endsWith('.png') || project.demo.endsWith('.jpeg') || project.demo.endsWith('.gif') ?
+                <img src={project.demo} alt={project.name} width="100%" height="auto" />
+                :
+                null
+              }
               </div>
 
               {/* Description and Buttons */}
