@@ -10,7 +10,7 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>
-          My portfolio
+          My portfolio + accomplishments
         </p>
         <h2 className={styles.sectionHeadText}>
           Projects.
