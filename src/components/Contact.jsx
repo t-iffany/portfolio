@@ -28,6 +28,7 @@ const Contact = () => {
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Get in touch</p>
         <h2 className={styles.sectionHeadText}>Contact.</h2>
+        &nbsp;
       </motion.div>
 
     {/* <div className="xl:mt-12 xl:flex-row 
@@ -36,23 +37,25 @@ const Contact = () => {
         className="mt-12 flex flex-col md:flex-row gap-10 justify-center items-center"
         style={{ maxWidth: '800px' }}
       > */}
-    <div className="mt-12 flex justify-center items-center">
+    <div className="flex justify-center items-center -mt-32"
+      style={{ display: "flex", justifyContent: "flex-start" }}
+    >
       <motion.div
         variants={slideIn('left', "tween", 0.2, 1)}
         className="flex-full bg-[#5C9EAD] p-8 rounded-2xl"
-        style={{ width: "100%", maxWidth: "900px" }}
+        style={{ width: "100%", maxWidth: "900px", scale: "0.6" }}
       >
-        <p className={`${styles.sectionSubText} bg-[#5C9EAD]`}>
+        {/* <p className={`${styles.sectionSubText} bg-[#5C9EAD]`}>
           Let's
         </p>
         <h3 className={`${styles.sectionHeadText} bg-[#5C9EAD]`}>
           Connect.
-        </h3>
+        </h3> */}
 
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className="mt-5 flex flex-col gap-5 bg-[#5C9EAD]"
+          className="flex flex-col gap-5 bg-[#5C9EAD]"
         >
 
           <label className="flex flex-col bg-[#5C9EAD]">
