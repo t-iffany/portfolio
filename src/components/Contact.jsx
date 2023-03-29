@@ -16,7 +16,9 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (event) => {
+    const { name, value } = event.target;
 
+    setForm({ ...form, [name]: value })
   }
 
   const handleSubmit = (event) => {
@@ -69,7 +71,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your name?"
               className="py-4 px-6 placeholder:text-secondary
-              text-gray rounded-lg outlined-none border-none font-medium"
+              text-black rounded-lg outlined-none border-none font-medium"
               style={{ backgroundColor: "white", width: "100%", maxWidth: "900px" }}
             />
           </label>
@@ -85,7 +87,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your email?"
               className="py-4 px-6 placeholder:text-secondary
-              text-gray rounded-lg outlined-none border-none font-medium"
+              text-black rounded-lg outlined-none border-none font-medium"
               style={{ backgroundColor: "white", width: "100%", maxWidth: "900px" }}
             />
           </label>
@@ -101,7 +103,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What is your message?"
               className="py-4 px-6 placeholder:text-secondary
-              text-gray rounded-lg outlined-none border-none font-medium"
+              text-black rounded-lg outlined-none border-none font-medium"
               style={{ backgroundColor: "white", width: "100%", maxWidth: "900px" }}
             />
           </label>
