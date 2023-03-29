@@ -10,7 +10,7 @@ const Tech = () => {
     <>
     {/* animate the text when scrolling down */}
     <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Skills</p>
+        <p className={styles.sectionSubText}>My skills</p>
         <h2 className={styles.sectionHeadText}>Technologies.</h2>
       </motion.div>
 
