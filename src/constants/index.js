@@ -159,7 +159,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "ZenZone 3D",
+    name: "ZenZone 3D 🏆",
     description:
       "nWPlus cmd-f 24-hour Hackathon 2nd Place Winner out of 44 projects + Most Creative Use of Twilio Award + Best Use of Cohere API Award 3rd place",
     tags: [
@@ -180,7 +180,7 @@ const projects = [
     source_code_link: "https://github.com/t-iffany/cmdf-2023",
   },
   {
-    name: "BinIt!",
+    name: "BinIt! 🏆",
     description:
       "RootHacks 12-hour Hackathon Winner of Best Project With At Least One Women-Identifying or Non-Binary Member on the Team (WiCS Women in Tech Award)",
     tags: [
