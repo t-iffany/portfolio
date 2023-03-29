@@ -35,9 +35,9 @@ const Works = () => {
           {projects.map((project, index) => (
             <div key={project.name} className="flex flex-col md:flex-row mb-6 bg-[#5C9EAD] p-6 rounded-lg">
               {/* Video/GIF */}
-              <div className="w-full md:w-9/20 bg-[#5C9EAD] overflow-hidden rounded-lg">
+              <div className="w-full md:w-9/20 bg-[#5C9EAD] overflow-hidden">
                 {project.demo.endsWith('.mp4') ?
-                <video width="100%" height="240" controls>
+                <video width="100%" height="240" controls className="rounded-lg">
                   <source
                     src={project.demo}
                     type="video/mp4"
@@ -46,7 +46,7 @@ const Works = () => {
                 </video>
                 :
                 project.demo.endsWith('.png') || project.demo.endsWith('.jpeg') || project.demo.endsWith('.gif') ?
-                <img src={project.demo} alt={project.name} width="100%" height="auto" />
+                <img src={project.demo} alt={project.name} width="100%" height="auto" className="rounded-lg" />
                 :
                 null
               }
