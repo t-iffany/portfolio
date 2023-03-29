@@ -21,6 +21,7 @@ import {
 import zenzonedemo from "../assets/zenzonedemo.mp4";
 import binitdemo from "../assets/binitdemo.mp4";
 import pawhubdemo from "../assets/pawhubdemo.mp4";
+import jungle from "../assets/jungle.png";
 
 export const navLinks = [
   {
@@ -214,6 +215,27 @@ const projects = [
     ],
     demo: pawhubdemo,
     source_code_link: "https://github.com/t-iffany/pawhub",
+  },
+  {
+    name: "Jungle",
+    description:
+      "A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example. Inherited and worked within an existing code base in a new language/framework. Extended and improved this web application without understanding the full source code. Fixed existing bugs and implemented new features. Utilized RSpec and Cypress testing frameworks.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ruby on rails",
+        color: "pink-text-gradient",
+      },
+    ],
+    demo: jungle,
+    source_code_link: "https://github.com/t-iffany/jungle-rails",
   },
 ];
 
