@@ -30,6 +30,9 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import cst from "./company/cst.png";
+import vch from "./company/vch.png";
+
 export {
   logo,
   backend,
@@ -59,4 +62,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  cst,
+  vch,
 };

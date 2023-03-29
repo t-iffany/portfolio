@@ -23,6 +23,11 @@ import binitdemo from "../assets/binitdemo.mp4";
 import pawhubdemo from "../assets/pawhubdemo.mp4";
 import jungle from "../assets/jungle.png";
 
+import {
+  cst,
+  vch
+} from "../assets";
+
 export const navLinks = [
   {
     id: "about",
@@ -116,7 +121,7 @@ const experiences = [
   {
     title: "Informatics Specialist",
     company_name: "Vancouver Coastal Health",
-    // icon: vch,
+    icon: cst,
     iconBg: "#383E56",
     // date: "March 2020 - April 2021",
     points: [
@@ -130,7 +135,7 @@ const experiences = [
   {
     title: "Public Health Nurse",
     company_name: "Vancouver Coastal Health",
-    // icon: vch,
+    icon: vch,
     iconBg: "#E6DEDD",
     // date: "Jan 2021 - Feb 2022",
     points: [
