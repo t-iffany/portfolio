@@ -4,6 +4,11 @@ import { slideIn } from '../utils/motion';
 import { styles } from '../styles';
 import { motion } from 'framer-motion';
 import { textVariant } from '../utils/motion';
+import emailjs from '@emailjs/browser';
+
+const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const EMAILJS_API_KEY = import.meta.env.VITE_EMAILJS_API_KEY;
 
 const Contact = () => {
   const formRef = useRef();
@@ -22,7 +27,37 @@ const Contact = () => {
   }
 
   const handleSubmit = (event) => {
+    event.preventDefault();
+    setLoading(true);
 
+    emailjs.send(
+      EMAILJS_SERVICE_ID, 
+      EMAILJS_TEMPLATE_ID,
+      {
+        from_name: form.name,
+        to_name: 'Tiffany',
+        from_email: form.email,
+        to_email: 'tiffanyxleong@gmail.com',
+        message: form.message,
+      },
+      EMAILJS_API_KEY,
+    ) 
+    .then (() => {
+      setLoading(false);
+      alert('Thank you! I will get back to you as soon as possible.');
+
+      setForm({
+        email: "",
+        name: "",
+        message: "",
+      }, (error) => {
+        setLoading(false)
+
+        console.log(error);
+
+        alert('Email could not be sent. Please try again.')
+      })
+    })
   }
 
   return (
