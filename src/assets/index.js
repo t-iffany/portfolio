@@ -31,7 +31,7 @@ import cypress from "./tech/cypress.svg";
 import jquery from "./tech/jquery.png";
 import storybook from "./tech/storybook.png";
 import jest from "./tech/jest.svg";
-import mocha from ",/tech/mocha.svg";
+import mocha from "./tech/mocha.svg";
 import chai from "./tech/chai.jpeg";
 import rspec from "./tech/rspec.png";
 import jira from "./tech/jira.png";
@@ -44,6 +44,11 @@ import flask from "./tech/flask.png";
 
 import cst from "./company/cst.png";
 import vch from "./company/vch.png";
+
+import zenzonedemo from "../assets/zenzonedemo.mp4";
+import binitdemo from "../assets/binitdemo.mp4";
+import pawhubdemo from "../assets/pawhubdemo.mp4";
+import jungle from "../assets/jungle.png";
 
 
 export {
@@ -91,4 +96,8 @@ export {
   flask,
   cst,
   vch,
+  zenzonedemo,
+  binitdemo,
+  pawhubdemo,
+  jungle,
 };
