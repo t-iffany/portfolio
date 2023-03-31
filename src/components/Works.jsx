@@ -57,7 +57,7 @@ const Works = () => {
                 <h3 className="text-xl font-semibold mb-2 bg-[#5C9EAD]">
                   {project.name}
                 </h3>
-                <ul className="text-white text-[17px] max-w-3xl leading-[30px] bg-[#5C9EAD] list-disc">
+                <ul className="text-white text-[17px] max-w-3xl leading-[30px] bg-[#5C9EAD] list-disc" style={{ lineHeight: 1.5 }}>
                   {project.points.map((point, index) => (
                   <li
                     key={`description-point-${index}`}
