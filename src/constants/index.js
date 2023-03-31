@@ -16,14 +16,34 @@ import {
   figma,
   // docker,
   threejs,
+  // ruby,
+  // sql,
+  // express,
+  // rails,
+  // ejs,
+  // postgresql,
+  // mysql,
+  // cypress,
+  // jquery,
+  // storybook,
+  // jest, 
+  // mocha,
+  // chai,
+  // rspec,
+  // jira,
+  // slack,
+  // visio,
+  // vite,
+  // spline,
+  // python,
+  // flask,
   cst,
   vch,
+  zenzonedemo,
+  binitdemo,
+  pawhubdemo,
+  jungle,
 } from "../assets";
-
-import zenzonedemo from "../assets/zenzonedemo.mp4";
-import binitdemo from "../assets/binitdemo.mp4";
-import pawhubdemo from "../assets/pawhubdemo.mp4";
-import jungle from "../assets/jungle.png";
 
 export const navLinks = [
   {
