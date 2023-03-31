@@ -188,7 +188,7 @@ const testimonials = [
 const projects = [
   {
     name: "ZenZone 3D 🏆",
-    description: [
+    points: [
       "nWPlus cmd-f 24-hour Hackathon 2nd Place Winner out of 44 projects + Most Creative Use of Twilio Award + Best Use of Cohere API Award 3rd place",
       `An interactive 3D game that promotes mental health and wellness, while providing a relaxing and calm atmosphere. We use Cohere's AI technology to reframe users' worries or stressors into positive and constructive affirmations. Users can explore the 3D environment using their avatar. Twilio API is used to send text notification reminders to users to be aware of their current emotional state and revisit the game - “Are you stressed? Visit ZenZone!”`,
       "Tech Stack: Spline, Cohere API, Twilio API, React, Typescript, Javascript, CSS, HTML, NodeJS, ExpressJS",
@@ -212,7 +212,7 @@ const projects = [
   },
   {
     name: "BinIt! 🏆",
-    description: [
+    points: [
       "RootHacks 12-hour Hackathon Winner of Best Project With At Least One Women-Identifying or Non-Binary Member on the Team (WiCS Women in Tech Award)",
       "A full stack application that uses artificial intelligence (AI) to sort waste based on images. Users upload an image of their waste, then BinIt will use computer vision and machine learning algorithms to identify the type of waste and suggest the correct bin for disposal.",
       "Tech Stack: React, Javascript, CSS, HTML, Python, Flask"
@@ -236,7 +236,7 @@ const projects = [
   },
   {
     name: "PawHub",
-    description: [
+    points: [
       "A full stack application for pet owners to connect with other pet owners, find local pet resources, and learn about different breeds and pet care.",
       "Includes: discussion board, explore page, map page, breed information page, video page",
       "Tech stack: Javascript, React, React Router, Ruby on Rails API, PostgreSQL, Bootstrap, Material UI, Axios, Google Maps Platform, YouTube Data API",
@@ -260,7 +260,7 @@ const projects = [
   },
   {
     name: "Jungle",
-    description: [
+    points: [
       "A mini e-commerce application built with Rails 6.1 for purposes of learning Rails by example. Inherited and worked within an existing code base in a new language/framework. Extended and improved this web application without understanding the full source code. Fixed existing bugs and implemented new features. Utilized RSpec and Cypress testing frameworks.",
       "Tech stack: Ruby on Rails, RSpec, Cypress, HTML, SCSS",
     ],
@@ -283,7 +283,7 @@ const projects = [
   },
   // {
   //   name: "Interview Scheduler",
-  //   description: [
+  //   points: [
   //     "Interview Scheduler is a client application built using React that allows users to create, edit, and delete interview appointments.",
   //     "Tech stack: Javascript, HTML, SCSS"
   //   ],

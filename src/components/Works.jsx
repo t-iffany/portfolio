@@ -57,7 +57,16 @@ const Works = () => {
                 <h3 className="text-xl font-semibold mb-2 bg-[#5C9EAD]">
                   {project.name}
                 </h3>
-                <p className="text-white text-[17px] max-w-3xl leading-[30px] bg-[#5C9EAD]">{project.description}</p>
+                <ul className="text-white text-[17px] max-w-3xl leading-[30px] bg-[#5C9EAD] list-disc">
+                  {project.points.map((point, index) => (
+                  <li
+                    key={`description-point-${index}`}
+                    className="text-white-100 text-[14px] pl-1 tracking-wider bg-[#5C9EAD]"
+                  >
+                    {point}
+                  </li>
+                ))}
+                </ul>
                 &nbsp;
                 <a
                   href={project.source_code_link}
