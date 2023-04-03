@@ -1,6 +1,9 @@
 import { styles } from '../styles';
 import { motion } from 'framer-motion';
 import { tiffbitmoji } from '../assets';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin, faDev } from "@fortawesome/free-brands-svg-icons";
+import { faFileAlt, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Hero = () => {
   return (
@@ -23,31 +26,52 @@ const Hero = () => {
             Full Stack Developer
           </p>
           <p className="text-secondary">
-          <motion.div
-      animate={{ x: [0, 10, 0], transition: { repeat: Infinity, duration: 1 } }}
-      style={{ display: "inline-flex", alignItems: "center", marginRight: "8px" }}
-    >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="16"
-        height="16"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        <path d="M5 12h14" />
-        <path d="M12 5l7 7-7 7" />
-      </svg>
-    </motion.div>
+            <motion.div
+              animate={{ x: [0, 10, 0], transition: { repeat: Infinity, duration: 1 } }}
+              style={{ display: "inline-flex", alignItems: "center", marginRight: "8px" }}
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M5 12h14" />
+                <path d="M12 5l7 7-7 7" />
+              </svg>
+            </motion.div>
             I turn ideas into innovative web solutions.
           </p>
-          <img 
-            src={tiffbitmoji} 
-            alt={tiffbitmoji} 
-          />
+          <div className="flex flex-row items-center">
+            <div className="flex flex-col items-center justify-start">
+              <a href="https://github.com/t-iffany" target="_blank">
+                <FontAwesomeIcon icon={faGithub} size="2x" />
+              </a>
+              <a href="https://www.linkedin.com/in/tiffanyleong/" target="_blank">
+                <FontAwesomeIcon icon={faLinkedin} size="2x" />
+              </a>
+              <a href="https://resume.creddle.io/resume/fg0759bs3gt" target="_blank">
+                <FontAwesomeIcon icon={faFileAlt} size="2x" />
+              </a>
+              <a href="#contact">
+                <FontAwesomeIcon icon={faEnvelope} size="2x" />
+              </a>
+              <a href="https://devpost.com/t-iffany" target="_blank">
+                <FontAwesomeIcon icon={faDev} size="2x" />
+              </a>
+            </div>
+            <div className="flex flex-col justify-center items-center">
+              <img
+                src={tiffbitmoji}
+                alt={tiffbitmoji}
+              />
+            </div>
+          </div>
         </div>
 
         {/* page-down-scroll-icon */}
