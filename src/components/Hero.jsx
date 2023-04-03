@@ -47,21 +47,21 @@ const Hero = () => {
             </motion.div>
             I turn ideas into innovative web solutions.
           </p>
-          <div className="flex flex-row items-center">
+          <div className="flex flex-row items-center ml-12">
             <div className="flex flex-col items-center justify-start">
-              <a href="https://github.com/t-iffany" target="_blank">
+              <a href="https://github.com/t-iffany" target="_blank" className="mr-10 mb-3">
                 <FontAwesomeIcon icon={faGithub} size="2x" />
               </a>
-              <a href="https://www.linkedin.com/in/tiffanyleong/" target="_blank">
+              <a href="https://www.linkedin.com/in/tiffanyleong/" target="_blank" className="mr-10 mb-3">
                 <FontAwesomeIcon icon={faLinkedin} size="2x" />
               </a>
-              <a href="https://resume.creddle.io/resume/fg0759bs3gt" target="_blank">
+              <a href="https://resume.creddle.io/resume/fg0759bs3gt" target="_blank" className="mr-10 mb-3">
                 <FontAwesomeIcon icon={faFileAlt} size="2x" />
               </a>
-              <a href="#contact">
+              <a href="#contact" className="mr-10 mb-3">
                 <FontAwesomeIcon icon={faEnvelope} size="2x" />
               </a>
-              <a href="https://devpost.com/t-iffany" target="_blank">
+              <a href="https://devpost.com/t-iffany" target="_blank" className="mr-10">
                 <FontAwesomeIcon icon={faDev} size="2x" />
               </a>
             </div>
