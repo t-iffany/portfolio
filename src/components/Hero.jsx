@@ -1,5 +1,6 @@
 import { styles } from '../styles';
 import { motion } from 'framer-motion';
+import { tiffbitmoji } from '../assets';
 
 const Hero = () => {
   return (
@@ -43,6 +44,10 @@ const Hero = () => {
     </motion.div>
             I turn ideas into innovative web solutions.
           </p>
+          <img 
+            src={tiffbitmoji} 
+            alt={tiffbitmoji} 
+          />
         </div>
 
         {/* page-down-scroll-icon */}
