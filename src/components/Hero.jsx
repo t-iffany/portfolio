@@ -4,21 +4,21 @@ import { tiffbitmoji } from '../assets';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin, faDev } from "@fortawesome/free-brands-svg-icons";
 import { faFileAlt, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { SectionWrapper } from '../hoc';
 
 const Hero = () => {
   return (
-    // background
     <section className="relative w-full h-screen mx-auto">
       <div className={`${styles.paddingX} absolute inset-0 
-        top-[120px] max-w-7x1 mx-auto flex flex-row items-start gap-5`}>
-        <div className="flex flex-col justify-center items-center mt-5">
+        top-[120px] w-full max-w-7xl mx-auto flex flex-row items-start gap-5`}>
+        <div className="line-dot flex flex-col justify-center items-center mt-5">
           {/* dot */}
           <div className="w-5 h-5 rounded-full bg-[#5C9EAD]" />
-          {/* line */}
+          {/* line */}     
           <div className="w-1 sm:h-80 h-40 blue-gradient" />
         </div>
-
-        <div>
+        <div className="header-body flex flex-col w-full">
+        <div className="header ml-20">
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm &nbsp;
             <span className="text-[#5C9EAD]">Tiffany</span>
           </h1>
@@ -47,7 +47,8 @@ const Hero = () => {
             </motion.div>
             I turn ideas into innovative web solutions.
           </p>
-          <div className="flex flex-row items-center ml-12">
+          </div>
+          <div className="body w-max flex flex-row items-center ml-60 mt-8">
             <div className="flex flex-col items-center justify-start">
               <a href="https://github.com/t-iffany" target="_blank" className="mr-10 mb-3">
                 <FontAwesomeIcon icon={faGithub} size="2x" />
@@ -65,12 +66,15 @@ const Hero = () => {
                 <FontAwesomeIcon icon={faDev} size="2x" />
               </a>
             </div>
-            <div className="flex flex-col justify-center items-center">
+            <div className="flex flex-col justify-center items-center ml-8">
               <img
                 src={tiffbitmoji}
                 alt={tiffbitmoji}
+                width="300px"
+                height="300px"
               />
             </div>
+          {/* </div> */}
           </div>
         </div>
 
@@ -102,4 +106,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default SectionWrapper(Hero, "");
