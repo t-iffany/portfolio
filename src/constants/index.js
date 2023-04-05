@@ -62,20 +62,32 @@ export const navLinks = [
 
 const qualities = [
   {
-    title: "Systems Implementation Experience",
+    title: "Adaptability",
     icon: web,
-  },
-  {
-    title: "Collaborator/Team Player",
-    icon: mobile,
+    // points: [
+    //   "I am a quick learner, self-starter who adapts easily to ever-changing workflows and new information systems. As a nurse, I often wear multiple hats, critically solve problems while working accurately and efficiently."
+    // ],
   },
   {
     title: "User Empathy",
-    icon: backend,
+    icon: mobile,
+    // points: [
+
+    // ],
   },
   {
-    title: "Communication",
+    title: "Interpersonal Communication",
+    icon: backend,
+    // points: [
+
+    // ],
+  },
+  {
+    title: "Collaboration",
     icon: creator,
+    // points: [
+
+    // ],
   },
 ];
 
