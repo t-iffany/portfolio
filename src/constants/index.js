@@ -152,11 +152,10 @@ const experiences = [
     iconBg: "#383E56",
     // date: "March 2020 - April 2021",
     points: [
-      "Implemented an $800 million+ Oracle Cerner electronic health records application system that enhances medical care and safety for over 1.2 million B.C. residents. The system is among the largest and most complex healthcare projects in the country, revolutionizing the way patient information is managed and accessed. ",
-      "Managed and facilitated the entire project lifecycle, including requirements gathering with subject matter experts, gap analysis, clinic design, build, validation, cutover, adoption, and go-live processes, ensuring adherence to project timeline and scope.",
-      "Translated business and end-user needs into technical system requirements, and collaborated with design and build teams to create tailored solutions that met the unique demands of the project.",
-      "Utilized Jira for tracking and managing user/system queries and issues, diligently following up with builders regarding break fixes and system changes using a change control process.",
-      "Developed and executed comprehensive test scripts for systems integration testing, ensuring seamless compatibility among system components to achieve a reliable and effective implementation.",
+      "Software application system implementation",
+      "Project management",
+      "Worked through entire project lifecycle",
+      "Translated business needs into technical system requirements",
     ],
   },
   {
@@ -166,9 +165,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     // date: "Jan 2021 - Feb 2022",
     points: [
-      "Team Lead: Mass Immunization Clinics - Led and coordinated a team of at least 20 staff and volunteers to ensure smooth operation, flow of clinics to efficiently vaccinate 600+ people/day. Acted as clinical resource, provided consultation for medical complexities, and communicated operating procedures, vaccine information, best practice guidelines to physicians, nurses, and allied health immunizers.",
-      "Team Lead: Case and Contact Tracing - Supervised a team of 18 nursing and allied health staff. Increased staff adoption of clinical systems by providing training, onboarding, and resolving staff queries with new workflows and tool updates. Presented daily and case reports to Medical Health Officers for consultation of Public Health guidance.",
-      "Infant, Child, and Youth Services - Delivered comprehensive health promotion, disease prevention, assessment, intervention, and support services to families and children, fostering positive health outcomes. Advocated for clients and promoted client capacity building through education and development support. Identified and facilitated community resources appropriate to client needs.",
+      "Team Lead for Mass Immunization Clinics",
+      "Team Lead for Case and Contact Tracing",
+      "Nurse for Infant, Child, and Youth Services",
     ],
   },
   {
@@ -209,7 +208,8 @@ const projects = [
   {
     name: "ZenZone 3D 🏆",
     points: [
-      "nWPlus cmd-f 24-hour Hackathon 2nd Place Winner out of 44 projects + Most Creative Use of Twilio Award + Best Use of Cohere API Award 3rd place",
+      "nWPlus cmd-f 24-hour Hackathon", 
+      "2nd Place Winner out of 44 projects + Most Creative Use of Twilio Award + Best Use of Cohere API Award 3rd place",
       `An interactive 3D game that promotes mental health and wellness, while providing a relaxing and calm atmosphere. We use Cohere's AI technology to reframe users' worries or stressors into positive and constructive affirmations. Users can explore the 3D environment using their avatar. Twilio API is used to send text notification reminders to users to be aware of their current emotional state and revisit the game - “Are you stressed? Visit ZenZone!”`,
       "Tech Stack: Spline, Cohere API, Twilio API, React, Typescript, Javascript, CSS, HTML, NodeJS, ExpressJS",
     ],
@@ -233,7 +233,8 @@ const projects = [
   {
     name: "BinIt! 🏆",
     points: [
-      "RootHacks 12-hour Hackathon Winner of Best Project With At Least One Women-Identifying or Non-Binary Member on the Team (WiCS Women in Tech Award)",
+      "RootHacks 12-hour Hackathon", 
+      "Winner of Best Project With At Least One Women-Identifying or Non-Binary Member on the Team (WiCS Women in Tech Award)",
       "A full stack application that uses artificial intelligence (AI) to sort waste based on images. Users upload an image of their waste, then BinIt will use computer vision and machine learning algorithms to identify the type of waste and suggest the correct bin for disposal.",
       "Tech Stack: React, Javascript, CSS, HTML, Python, Flask"
     ],
@@ -281,7 +282,7 @@ const projects = [
   {
     name: "Jungle",
     points: [
-      "A mini e-commerce application built with Rails 6.1 for purposes of learning Rails by example. Inherited and worked within an existing code base in a new language/framework. Extended and improved this web application without understanding the full source code. Fixed existing bugs and implemented new features. Utilized RSpec and Cypress testing frameworks.",
+      "A mini e-commerce application built for purposes of learning Rails by example. Inherited and worked within an existing code base in a new language/framework. Extended and improved this web application without understanding the full source code. Fixed existing bugs and implemented new features. Utilized RSpec and Cypress testing frameworks.",
       "Tech stack: Ruby on Rails, RSpec, Cypress, HTML, SCSS",
     ],
       tags: [
