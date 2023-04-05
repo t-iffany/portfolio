@@ -11,9 +11,9 @@ function App() {
             <Hero />
           </div>
           <Works />
+          <Strengths />
           <Tech />
           <Experience />
-          <Strengths />
           <About />
           {/* <Feedbacks /> */}
           <div className="relative z-0">
