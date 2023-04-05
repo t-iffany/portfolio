@@ -210,7 +210,7 @@ const projects = [
     points: [
       "nWPlus cmd-f 24-hour Hackathon", 
       "2nd Place Winner out of 44 projects + Most Creative Use of Twilio Award + Best Use of Cohere API Award",
-      `An interactive 3D game that promotes mental health and wellness, while providing a relaxing and calm atmosphere. 
+      `An interactive 3D game that promotes mental health and wellness. 
       We use AI technology to reframe users' worries or stressors into positive and constructive affirmations. 
       Users can explore the 3D environment using their avatar. Text notification reminders are sent to users to be aware 
       of their current emotional state and revisit the game.`,
@@ -238,7 +238,7 @@ const projects = [
     points: [
       "RootHacks 12-hour Hackathon", 
       "Winner of Best Project With At Least One Women-Identifying or Non-Binary Member on the Team (WiCS Women in Tech Award)",
-      "A full stack application that uses artificial intelligence (AI) to sort waste based on images. Users upload an image of their waste, then BinIt will use computer vision and machine learning algorithms to identify the type of waste and suggest the correct bin for disposal.",
+      "A full stack application that uses AI to sort waste based on images. Users upload an image of their waste, then BinIt will use computer vision and machine learning algorithms to identify the type of waste and suggest the correct bin for disposal.",
       "React, Javascript, CSS, HTML, Python, Flask"
     ],
       tags: [
