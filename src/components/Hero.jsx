@@ -8,9 +8,10 @@ import { SectionWrapper } from '../hoc';
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto">
-      <div className={`${styles.paddingX} absolute inset-0 
-        top-[120px] w-full max-w-7xl mx-auto flex flex-row items-start gap-5`}>
+    <section className="relative w-full min-h-screen mx-auto">
+      {/* <div className={`${styles.paddingX} absolute inset-0 
+        w-full max-w-7xl mx-auto flex flex-row items-start gap-5`}> */}
+        <div className="flex flex-row items-start gap-5">
         <div className="line-dot flex flex-col justify-center items-center mt-5">
           {/* dot */}
           <div className="w-5 h-5 rounded-full bg-[#5C9EAD]" />
@@ -48,44 +49,59 @@ const Hero = () => {
             I turn ideas into innovative web solutions.
           </p>
           </div>
-          <div className="body w-max flex flex-row items-center ml-60 mt-8">
-            <div className="flex flex-col items-center justify-start">
-              <a href="https://github.com/t-iffany" target="_blank" className="mr-10 mb-3">
-                <FontAwesomeIcon icon={faGithub} size="2x" />
-              </a>
+
+          <div className="body w-max flex flex-col md:flex-row justify-center items-center ml-20 mt-8">
+            <div className="flex flex-row md:flex-col items-center justify-start md:justify-center mb-8 md:mb-0">
               <a href="https://www.linkedin.com/in/tiffanyleong/" target="_blank" className="mr-10 mb-3">
                 <FontAwesomeIcon icon={faLinkedin} size="2x" />
+              </a>
+              <a href="https://github.com/t-iffany" target="_blank" className="mr-10 mb-3">
+                <FontAwesomeIcon icon={faGithub} size="2x" />
               </a>
               <a href="https://resume.creddle.io/resume/fg0759bs3gt" target="_blank" className="mr-10 mb-3">
                 <FontAwesomeIcon icon={faFileAlt} size="2x" />
               </a>
-              <a href="#contact" className="mr-10 mb-3">
+              {/* <a href="#contact" className="mr-10 mb-3">
                 <FontAwesomeIcon icon={faEnvelope} size="2x" />
-              </a>
+              </a> */}
               <a href="https://devpost.com/t-iffany" target="_blank" className="mr-10">
                 <FontAwesomeIcon icon={faDev} size="2x" />
               </a>
             </div>
-            <div className="flex flex-col justify-center items-center ml-8">
+            <div className="flex flex-col md:flex-row justify-center items-center"></div>
+            <div className="flex justify-center items-center mb-8 md:mb-0 md:mr-10">
               <img
                 src={tiffbitmoji}
                 alt={tiffbitmoji}
-                width="300px"
-                height="300px"
+                width="400px"
+                height="400px"
               />
+            </div>
+            <div className="flex flex-col justify-center items-center md:ml-12 border border-4 border-[#5C9EAD] p-4 max-w-xs mx-auto rounded-lg text-xs">
+              <ul className="list-disc-none">
+                <li>✨  I am comfortable being uncomfortable ✨ </li><br />
+                <li>Whether it is learning new technologies, making critical decisions in high-pressure environments as a nurse, or solo traveling around the world.</li> <br />
+                <li>I embrace opportunities to be curious, adapt, and grow.</li> <br />
+                <li style={{ display: "flex", alignItems: "center" }}><a href="#contact" className="mr-2" >
+                  <FontAwesomeIcon icon={faEnvelope} size="xl" /></a>
+                  tiffanyxleong@gmail.com
+                </li>
+              </ul>
             </div>
           {/* </div> */}
           </div>
         </div>
+        </div>
+
 
         {/* page-down-scroll-icon */}
-        <div className="absolute xs:bottom-10 bottom-32 w-full flex
-          justify-center items-center">
-          <a href="#about">
-            <div className="w-[35px] h-[64px] rounded-3xl border-4 
-              border-secondary flex justify-center items-start p-2">
+        {/* <div className="absolute xs:bottom-10 bottom-32 w-full flex
+          justify-center items-center"> */}
+          {/* <a href="#about"> */}
+            {/* <div className="w-[35px] h-[64px] rounded-3xl border-4 
+              border-secondary flex justify-center items-start p-2"> */}
               {/* animate the y-axis */}
-              <motion.div
+              {/* <motion.div
                 animate={{
                   y: [0, 24, 0]
                 }}
@@ -95,13 +111,12 @@ const Hero = () => {
                   repeatType: 'loop'
                 }}
                 className="w-3 h-3 rounded-full bg-secondary mb-1"
-              />
+              /> */}
+            {/* </div> */}
+          {/* </a>
+        </div> */}
 
-            </div>
-          </a>
-        </div>
-
-      </div>
+      {/* </div> */}
     </section>
   );
 };
