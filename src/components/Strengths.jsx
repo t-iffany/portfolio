@@ -40,7 +40,7 @@ const Strengths = () => {
     <>
       {/* animate the text when scrolling down */}
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>About me</p>
+        <p className={styles.sectionSubText}>Ideal candidate</p>
         <h2 className={styles.sectionHeadText}>Strengths.</h2>
       </motion.div>
 
@@ -49,10 +49,13 @@ const Strengths = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a Full Stack Developer experienced in systems implementations. 
-        Analytical problem solver with proven ability for empathizing with end-users, 
-        collaboration, communication, and adaptability. Determined to develop and 
-        optimize scalable websites and applications.
+        <ul className="list-disc" style={{ lineHeight: 1.2 }}>
+          <li>I am a Full Stack Developer experienced in systems implementations.</li><br></br>
+          <li>I have hands-on experience building fully integrated and functional full stack projects that incorporate modern technologies</li> <br></br>  
+          <li>Analytical problem solver with proven ability for empathizing with end-users, 
+          collaboration, communication, and adaptability</li> <br></br>
+          <li>Determined to develop and optimize scalable websites and applications</li>
+        </ul> 
       </motion.p>
 
       {/* add cards for Qualities component from index.js */}
