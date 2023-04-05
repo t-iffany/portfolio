@@ -61,7 +61,7 @@ const Works = () => {
                   {project.points.map((point, index) => (
                   <li
                     key={`description-point-${index}`}
-                    className="text-white-100 text-[14px] pl-1 tracking-wider bg-[#5C9EAD]"
+                    className="text-white-100 text-[17px] pl-1 tracking-wider bg-[#5C9EAD]"
                   >
                     {point}
                   </li>
