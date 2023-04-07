@@ -43,6 +43,8 @@ import {
   binitdemo,
   pawhubdemo,
   jungle,
+  scheduler,
+  beautisensedemo,
 } from "../assets";
 
 export const navLinks = [
@@ -64,30 +66,30 @@ const qualities = [
   {
     title: "Adaptability",
     icon: web,
-    // points: [
-    //   "I am a quick learner, self-starter who adapts easily to ever-changing workflows and new information systems. As a nurse, I often wear multiple hats, critically solve problems while working accurately and efficiently."
-    // ],
+    points: [
+      "I excel at quickly learning and adapting to new workflows and information systems. As a nurse, I often wear multiple hats while problem solving, and navigating complex situations with accuracy and efficiency."
+    ],
   },
   {
     title: "User Empathy",
     icon: mobile,
-    // points: [
-
-    // ],
+    points: [
+      "I worked closely with end-users to support systems build, ensured their needs are met, and identified issues to design teams. When creating projects, I always empathize with end-users and place myself in their shoes.",
+    ],
   },
   {
-    title: "Interpersonal Communication",
+    title: "Communication",
     icon: backend,
-    // points: [
-
-    // ],
+    points: [
+      "I clearly communicated technical information to a wide range of stakeholders. I have led and coordinated teams, fostering open communication channels and resolving conflicts to achieve team goals.",
+    ],
   },
   {
     title: "Collaboration",
     icon: creator,
-    // points: [
-
-    // ],
+    points: [
+      "I worked effectively with cross-functional teams to deliver successful project outcomes. I am a team player who leverages diverse perspectives and skills to work collaboratively with colleagues.",
+    ],
   },
 ];
 
@@ -295,6 +297,30 @@ const projects = [
     source_code_link: "https://github.com/t-iffany/pawhub",
   },
   {
+    name: "BeautiSense",
+    points: [
+      "Idea Track Submission for ELC Accessible Beauty Hackathon",
+      "An application that uses AI, facial recognition, and computer vision to provide personalized makeup guidance and accessibility features. It promotes independence for both visually impaired individuals and makeup enthusiasts.",
+      "Python, OpenCV, Javascript",
+    ],
+      tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ruby on rails",
+        color: "pink-text-gradient",
+      },
+    ],
+    demo: beautisensedemo,
+    source_code_link: "https://devpost.com/software/beautisense",
+  },
+  {
     name: "Jungle",
     points: [
       "A mini e-commerce application built for purposes of learning Rails by example. Inherited and worked within an existing code base in a new language/framework. Extended and improved this web application without understanding the full source code. Fixed existing bugs and implemented new features. Utilized RSpec and Cypress testing frameworks.",
@@ -317,29 +343,29 @@ const projects = [
     demo: jungle,
     source_code_link: "https://github.com/t-iffany/jungle-rails",
   },
-  // {
-  //   name: "Interview Scheduler",
-  //   points: [
-  //     "Interview Scheduler is a client application built using React that allows users to create, edit, and delete interview appointments.",
-  //     "Tech stack: Javascript, HTML, SCSS"
-  //   ],
-  //     tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "javascript",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "ruby on rails",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   demo: scheduler,
-  //   source_code_link: "https://github.com/t-iffany/scheduler",
-  // },
+  {
+    name: "Interview Scheduler",
+    points: [
+      "An application that allows users to create, edit, and delete interview appointments.",
+      "Javascript, HTML, SCSS, React"
+    ],
+      tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ruby on rails",
+        color: "pink-text-gradient",
+      },
+    ],
+    demo: scheduler,
+    source_code_link: "https://github.com/t-iffany/scheduler",
+  },
 ];
 
 export { qualities, technologies, experiences, testimonials, projects };

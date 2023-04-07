@@ -33,9 +33,9 @@ const Works = () => {
       <div className="w-full flex mt-8">
         <div className="grid lg:grid-cols-1 gap-6">
           {projects.map((project, index) => (
-            <div key={project.name} className="flex flex-col md:flex-row mb-6 bg-[#5C9EAD] p-6 rounded-lg">
+            <div key={project.name} className="flex flex-col md:flex-row mb-6 bg-[transparent] p-6">
               {/* Video/GIF */}
-              <div className="w-full md:w-9/20 bg-[#5C9EAD] overflow-hidden">
+              <div className="w-full md:w-9/20 overflow-hidden">
                 {project.demo.endsWith('.mp4') ?
                 <video width="100%" height="240" controls className="rounded-lg">
                   <source
@@ -53,29 +53,36 @@ const Works = () => {
               </div>
 
               {/* Description and Buttons */}
-              <div className="w-full md:w-11/20 flex flex-col justify-center px-4 md:pl-8 py-4 bg-[#5C9EAD]">
-                <h3 className="text-xl font-semibold mb-2 bg-[#5C9EAD]">
+              <div className="w-full md:w-11/20 flex flex-col px-4 md:pl-8 ">
+                <h3 className="text-xl font-semibold mb-2 text-[#5C9EAD]">
                   {project.name}
                 </h3>
-                <ul className="text-white text-[17px] max-w-3xl leading-[30px] bg-[#5C9EAD] list-disc" style={{ lineHeight: 1.5 }}>
+                <ul className="text-white text-[17px] max-w-3xl leading-[30px] list-disc ml-4" style={{ lineHeight: 1.5 }}>
                   {project.points.map((point, index) => (
                   <li
                     key={`description-point-${index}`}
-                    className="text-white-100 text-[17px] pl-1 tracking-wider bg-[#5C9EAD]"
+                    className="text-white-100 text-[17px] pl-1 tracking-wider"
                   >
                     {point}
                   </li>
                 ))}
                 </ul>
                 &nbsp;
-                <a
+                <button
+                  onClick={() => window.open(project.source_code_link, "_blank")}
+                  className="cursor-pointer bg-[#5C9EAD] py-2 px-5 outline-none w-fit text-white
+                  font-bold shadow-md shadow-primary rounded-xl"
+                >
+                  REPO
+                </button>
+                {/* <a
                   href={project.source_code_link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white underline bg-[#5C9EAD]"
                 >
                   Repository
-                </a>
+                </a> */}
               </div>
             </div>
           ))}
