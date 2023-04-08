@@ -26,7 +26,7 @@ const QualityCard = ({ index, title, icon, points }) => {
           {/* <img src={icon} alt={title}
             className="w-16 h-16 object-contain bg-[#5C9EAD]"
           /> */}
-          <h3 className="text-white text-[20px] font-bold text-center bg-[transparent] w-full mb-2 w-40">
+          <h3 className="text-white text-[20px] font-bold text-center bg-[transparent] w-full mb-2 w-44" style={{ whiteSpace: "nowrap", textAlign: "center", width: "12em" }}>
             {title}
           </h3>
           <p className="text-[15px] overflow-hidden bg-[transparent] w-40">{points}</p>
@@ -58,7 +58,7 @@ const Strengths = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        <ul className="list-disc mt-12 ml-6" style={{ lineHeight: 1.2 }}>
+        <ul className="list-disc mt-12 ml-6" style={{ lineHeight: 1.2, width: '110%' }}>
           <li>Full Stack Developer experienced in systems implementations</li><br />
           <li>Hands-on experience building fully integrated and functional full stack projects that incorporate modern technologies</li> <br />  
           <li>Analytical problem solver who enjoys challenges that require critical thinking</li> <br />
