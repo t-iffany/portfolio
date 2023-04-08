@@ -44,7 +44,7 @@ const Hero = () => {
                   <path d="M12 5l7 7-7 7" />
                 </svg>
               </motion.div>
-              I turn ideas into innovative web solutions.
+              I turn ideas into innovative web solutions
             </p>
           </div>
 
@@ -72,24 +72,22 @@ const Hero = () => {
                 height="400px"
               />
             </div>
-            <div className="flex flex-col justify-center items-center text-secondary md:ml-4 p-4 max-w-lg mx-auto rounded-lg"
-            style={{
-              // fontSize: "19.5px",
-              lineHeight: "1.8",
-              backdropFilter: 'blur(4px)',
-              // backgroundColor: 'rgba(255, 255, 255, 0.25)',
-              boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.37)',
-              // borderRadius: '20px',
-              WebkitBackdropFilter: '4px',
-            }}
+            <div className="flex flex-col justify-center items-center text-secondary md:ml-2 p-4 max-w-md mx-auto rounded-lg"
+            // style={{
+            //   // fontSize: "19.5px",
+            //   lineHeight: "1.8",
+            //   backdropFilter: 'blur(4px)',
+            //   // backgroundColor: 'rgba(255, 255, 255, 0.25)',
+            //   boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.37)',
+            //   // borderRadius: '20px',
+            //   WebkitBackdropFilter: '4px',
+            // }}
             >
-              <ul className="list-disc-none">
-                <li>I am comfortable being uncomfortable.</li><br />
-                <li>Whether it is learning new technologies, making critical decisions in high-pressure environments as a nurse, or travelling the world.</li> <br />
-                <li>I embrace opportunities to be curious, adapt, and grow.</li> <br />
+              <ul className="list-disc-none text-[16px]">
+                <li>I embrace opportunities to be curious, adapt, and grow.</li><br />
+                <li>I am comfortable being uncomfortable. Whether it is learning new technologies, making critical decisions in high-pressure environments as a nurse, or travelling the world.</li> <br />
                 <li style={{ display: "flex", alignItems: "center" }}><a href="#contact" className="mr-2" >
-                  <FontAwesomeIcon icon={faEnvelope} size="lg" color="#5C9EAD" /></a>
-                  tiffanyxleong@gmail.com
+                  <FontAwesomeIcon icon={faEnvelope} size="lg" color="#5C9EAD" /> <span className="text-[#5C9EAD]">Contact Me</span></a>
                 </li>
               </ul>
             </div>
