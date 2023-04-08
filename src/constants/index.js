@@ -1,10 +1,11 @@
+import { faConfluence } from "@fortawesome/free-brands-svg-icons";
 import {
   mobile,
   backend,
   creator,
   web,
   javascript,
-  // typescript,
+  typescript,
   html,
   css,
   reactjs,
@@ -15,28 +16,30 @@ import {
   git,
   figma,
   // docker,
-  threejs,
-  // ruby,
-  // sql,
-  // express,
-  // rails,
-  // ejs,
-  // postgresql,
-  // mysql,
-  // cypress,
-  // jquery,
-  // storybook,
-  // jest, 
-  // mocha,
-  // chai,
-  // rspec,
-  // jira,
-  // slack,
-  // visio,
-  // vite,
-  // spline,
-  // python,
-  // flask,
+  // threejs,
+  ruby,
+  sql,
+  express,
+  rails,
+  ejs,
+  postgresql,
+  mysql,
+  cypress,
+  jquery,
+  storybook,
+  jest, 
+  mocha,
+  chai,
+  rspec,
+  jira,
+  slack,
+  visio,
+  vite,
+  spline,
+  python,
+  flask,
+  confluence,
+  cerner,
   cst,
   vch,
   zenzonedemo,
@@ -44,7 +47,7 @@ import {
   pawhubdemo,
   jungle,
   scheduler,
-  beautisensedemo,
+  // beautisensedemo,
 } from "../assets";
 
 export const navLinks = [
@@ -93,78 +96,166 @@ const qualities = [
   },
 ];
 
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+const languages = [
   {
     name: "JavaScript",
     icon: javascript,
   },
-  // {
-  //   name: "TypeScript",
-  //   icon: typescript,
-  // },
+  {
+    name: "HTML",
+    icon: html,
+  },
+  {
+    name: "CSS",
+    icon: css,
+  },
+  {
+    name: "Ruby",
+    icon: ruby,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Typescript",
+    icon: typescript,
+  },
+];
+
+const frameworks = [
   {
     name: "React JS",
     icon: reactjs,
-  },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
   },
   {
     name: "Node JS",
     icon: nodejs,
   },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  // },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "EJS",
+    icon: ejs,
   },
   {
-    name: "git",
+    name: "Express",
+    icon: express,
+  },
+  {
+    name: "jQuery",
+    icon: jquery,
+  },
+  {
+    name: "Rails",
+    icon: rails,
+  },
+  {
+    name: "TailwindCSS",
+    icon: tailwind,
+  },
+  {
+    name: "Vite",
+    icon: vite,
+  },
+  {
+    name: "Spline",
+    icon: spline,
+  },
+  {
+    name: "Flask",
+    icon: flask,
+  },
+];
+
+const systems = [
+  {
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "SQL",
+    icon: sql,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
+    name: "PostgreSQL",
+    icon: postgresql,
+  },
+];
+
+const testing = [
+  {
+    name: "Storybook",
+    icon: storybook,
+  },
+  {
+    name: "Cypress",
+    icon: cypress,
+  },
+  {
+    name: "Mocha",
+    icon: mocha,
+  },
+  {
+    name: "Chai",
+    icon: chai,
+  },
+  {
+    name: "Jest",
+    icon: jest,
+  },
+  {
+    name: "RSpec",
+    icon: rspec,
+  },
+];
+
+const tools = [
+  {
+    name: "Jira",
+    icon: jira,
+  },
+  {
+    name: "Confluence",
+    icon: confluence,
+  },
+  {
+    name: "Figma",
     icon: figma,
   },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
+  {
+    name: "Cerner",
+    icon: cerner,
+  },
+  {
+    name: "Visio",
+    icon: visio,
+  },
+  {
+    name: "Slack",
+    icon: slack,
+  },
 ];
 
 const experiences = [
   {
     title: "Diploma of Web Development",
-    company_name: "Lighthouse Labs, 2023",
+    company_name: "Lighthouse Labs",
     icon: vch,
     iconBg: "#383E56",
-    // date: "March 2020 - April 2021",
+    date: "2022 - Feb 2023",
     points: [
       
     ],
   },
   {
     title: "Informatics Specialist",
-    company_name: "Vancouver Coastal Health",
+    company_name: "Clinical & Systems Transformation, Vancouver Coastal Health",
     icon: cst,
     iconBg: "#383E56",
-    // date: "March 2020 - April 2021",
+    date: "2021 - 2022",
     points: [
       "Software application system implementation",
       "Project management",
@@ -177,32 +268,32 @@ const experiences = [
     company_name: "Vancouver Coastal Health",
     icon: vch,
     iconBg: "#E6DEDD",
-    // date: "Jan 2021 - Feb 2022",
+    date: "2020 - Present",
     points: [
       "Team Lead for Mass Immunization Clinics",
       "Team Lead for Case and Contact Tracing",
-      "Nurse for Infant, Child, and Youth Services",
+      "Infant, Child, and Youth Services",
     ],
   },
   {
-    title: "Bachelor of Science in Nursing (With Distinction)",
-    company_name: "British Columbia Institute of Technology, 2019",
+    title: "Bachelor of Science in Nursing",
+    company_name: "British Columbia Institute of Technology, With Distinction",
     icon: vch,
     iconBg: "#383E56",
-    // date: "March 2020 - April 2021",
+    date: "2019",
     points: [
-      
     ],
   },
   {
-    title: "Bachelor of Science in Health/Nutrition, Minor in Kinesiology",
-    company_name: "The University of British Columbia, 2015",
+    title: "Bachelor of Science in Health and Nutrition",
+    company_name: "The University of British Columbia",
     icon: vch,
     iconBg: "#383E56",
-    // date: "March 2020 - April 2021",
+    date: "2015",
     points: [
-      "Uppsala University, Sweden - International Exchange",
-      "Universite Laval, Montreal - Explore French Immersion Program"
+      "Major: Nutritional Sciences, Minor: Kinesiology"
+,      "Uppsala University, Sweden - International Exchange",
+      "Universite Laval, Montreal - French Immersion Intensive"
     ],
   },
 ];
@@ -317,7 +408,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    demo: beautisensedemo,
+    demo: "",
     source_code_link: "https://devpost.com/software/beautisense",
   },
   {
@@ -368,4 +459,4 @@ const projects = [
   },
 ];
 
-export { qualities, technologies, experiences, testimonials, projects };
+export { qualities, languages, frameworks, systems, testing, tools, experiences, testimonials, projects };
