@@ -42,6 +42,8 @@ import vite from "./tech/vite.png";
 import spline from "./tech/spline.png";
 import python from "./tech/python.png";
 import flask from "./tech/flask.png";
+import confluence from "./tech/confluence.png";
+import cerner from "./tech/cerner.png";
 
 import cst from "./company/cst.png";
 import vch from "./company/vch.png";
@@ -51,7 +53,7 @@ import binitdemo from "../assets/binitdemo.mp4";
 import pawhubdemo from "../assets/pawhubdemo.mp4";
 import jungle from "../assets/jungle.png";
 import scheduler from "../assets/scheduler.png";
-import beautisensedemo from "../assets/beautisensedemo.mp4";
+// import beautisensedemo from "../assets/beautisensedemo.mp4";
 
 
 export {
@@ -105,5 +107,7 @@ export {
   pawhubdemo,
   jungle,
   scheduler,
-  beautisensedemo,
+  // beautisensedemo,
+  confluence,
+  cerner,
 };
