@@ -47,7 +47,7 @@ import {
   pawhubdemo,
   jungle,
   scheduler,
-  // beautisensedemo,
+  beautisense,
 } from "../assets";
 
 export const navLinks = [
@@ -408,7 +408,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    demo: "",
+    demo: beautisense,
     source_code_link: "https://devpost.com/software/beautisense",
   },
   {

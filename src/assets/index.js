@@ -53,7 +53,7 @@ import binitdemo from "../assets/binitdemo.mp4";
 import pawhubdemo from "../assets/pawhubdemo.mp4";
 import jungle from "../assets/jungle.png";
 import scheduler from "../assets/scheduler.png";
-// import beautisensedemo from "../assets/beautisensedemo.mp4";
+import beautisense from "../assets/beautisense.png";
 
 
 export {
@@ -107,7 +107,7 @@ export {
   pawhubdemo,
   jungle,
   scheduler,
-  // beautisensedemo,
+  beautisense,
   confluence,
   cerner,
 };
