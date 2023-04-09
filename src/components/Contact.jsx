@@ -86,8 +86,8 @@ const Contact = () => {
         <motion.div
           variants={slideIn('left', "tween", 0.2, 1)}
           // className="flex-full bg-[#5C9EAD] p-8 rounded-2xl"
-          className="flex flex-col md:flex-row justify-center items-center -mt-32"
-          style={{ display: "flex", justifyContent: "flex-start", width: "100%", maxWidth: "900px", backgroundColor: "transparent" }}
+          className="flex flex-col md:flex-row justify-start items-start"
+          style={{ display: "flex", justifyContent: "flex-start", width: "85%", backgroundColor: "transparent" }}
         >
           {/* <p className={`${styles.sectionSubText} bg-[#5C9EAD]`}>
           Let's
@@ -96,28 +96,36 @@ const Contact = () => {
           Connect.
         </h3> */}
 
-        <div className="contact-icons flex flex-row md:flex-col items-center justify-start md:justify-center mb-8 md:mb-0">
-          <FontAwesomeIcon icon={faEnvelope} size="lg" color="#5C9EAD" />
-          <span className="mr-6 md:mr-0 md:text-center">tiffanyxleong@gmail.com</span>
-          <FontAwesomeIcon icon={faMapMarkerAlt} size="lg" color="#5C9EAD" />
-          Vancouver, B.C. <br/>
-          Open to relocating
-          <a href="https://www.linkedin.com/in/tiffanyleong/" target="_blank" className="mr-10 mb-3">
-            <FontAwesomeIcon icon={faLinkedin} className="fa-lg w-6 h-6" color="#5C9EAD" /> <br/>
-            tiffanyleong
-          </a>
+        <div className="contact-icons flex flex-row md:flex-col justify-start md:justify-center mb-8 md:mb-0 lg:mt-20 xs:mt-0" style={{ width: "60%", alignItems: "flex-start", flexWrap: "wrap", maxWidth: "100%" }}>
+          <div className="flex items-center mb-8">
+            <FontAwesomeIcon icon={faEnvelope} size="lg" color="#5C9EAD" />
+            <span className="ml-4 mr-6 md:mr-0 md:center">tiffanyxleong@gmail.com</span>
+          </div>
+
+          <div className="flex items-center mb-8">
+            <a href="https://www.linkedin.com/in/tiffanyleong/" target="_blank">
+              <FontAwesomeIcon icon={faLinkedin} size="lg" color="#5C9EAD" />
+              <span className="ml-4 md:mr-0 md:center">tiffanyleong</span>
+            </a>
+          </div>
+
+          <div className="flex items-center mb-8">
+            <FontAwesomeIcon icon={faMapMarkerAlt} size="lg" color="#5C9EAD" />
+            <span className="ml-4 mr-6 md:mr-0 md:center">Vancouver, B.C. (Open to relocating)</span>
+          </div>
+          
         </div>
 
           {/* <div className="form"> */}
             <form
               ref={formRef}
               onSubmit={handleSubmit}
-              className="flex flex-col gap-5 bg-[#5C9EAD] p-8 rounded-2xl flex-full"
-              style={{ width: "100%", maxWidth: "900px", scale: "0.6"}}
+              className="flex flex-col gap-4 p-6 rounded-2xl flex-full ml-4"
+              style={{ width: "100%", margin: "0 auto", maxWidth: "90%" }}
             >
 
-              <label className="flex flex-col bg-[#5C9EAD]">
-                <span className="text-white font-medium mb-4 bg-[#5C9EAD]">
+              <label className="flex flex-col">
+                <span className="text-[#5C9EAD] font-medium mb-3">
                   Your Name
                 </span>
                 <input
@@ -126,14 +134,14 @@ const Contact = () => {
                   value={form.name}
                   onChange={handleChange}
                   placeholder="What's your name?"
-                  className="py-4 px-6 placeholder:text-secondary
+                  className="py-3 px-5 placeholder:text-secondary
               text-black rounded-lg outlined-none border-none font-medium"
                   style={{ backgroundColor: "white", width: "100%", maxWidth: "900px" }}
                 />
               </label>
 
-              <label className="flex flex-col bg-[#5C9EAD]">
-                <span className="text-white font-medium mb-4 bg-[#5C9EAD]">
+              <label className="flex flex-col">
+                <span className="font-medium mb-3 text-[#5C9EAD]">
                   Your Email
                 </span>
                 <input
@@ -142,31 +150,31 @@ const Contact = () => {
                   value={form.email}
                   onChange={handleChange}
                   placeholder="What's your email?"
-                  className="py-4 px-6 placeholder:text-secondary
+                  className="py-3 px-5 placeholder:text-secondary
               text-black rounded-lg outlined-none border-none font-medium"
                   style={{ backgroundColor: "white", width: "100%", maxWidth: "900px" }}
                 />
               </label>
 
-              <label className="flex flex-col bg-[#5C9EAD]">
-                <span className="text-white font-medium mb-4 bg-[#5C9EAD]">
+              <label className="flex flex-col">
+                <span className="text-[#5C9EAD] font-medium mb-3">
                   Your Message
                 </span>
                 <textarea
-                  rows="7"
+                  rows="4"
                   name="message"
                   value={form.message}
                   onChange={handleChange}
                   placeholder="What's your message?"
-                  className="py-4 px-6 placeholder:text-secondary
-              text-black rounded-lg outlined-none border-none font-medium"
+                  className="py-3 px-5 placeholder:text-secondary mb-3
+              text-white rounded-lg outlined-none border-none font-medium"
                   style={{ backgroundColor: "white", width: "100%", maxWidth: "900px" }}
                 />
               </label>
 
               <button
                 type="submit"
-                className="bg-tertiary py-3 px-8 outline-none w-fit text-white
+                className="py-2 px-5 outline-none w-fit text-white bg-[#5C9EAD]
             font-bold shadow-md shadow-primary rounded-xl"
               >
                 {loading ? 'Sending...' : 'Send'}
