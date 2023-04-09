@@ -68,7 +68,6 @@ const Contact = () => {
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Get in touch</p>
         <h2 className={styles.sectionHeadText}>Contact.</h2>
-        &nbsp;
       </motion.div>
 
       {/* <div className="xl:mt-12 xl:flex-row 
