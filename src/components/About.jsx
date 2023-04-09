@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { textVariant, fadeIn } from '../utils/motion';
-// import { qualities } from '../constants';
+// import { attributes } from '../constants';
 // import Tilt from 'react-parallax-tilt';
 import { SectionWrapper } from '../hoc';
 

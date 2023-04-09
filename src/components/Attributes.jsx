@@ -2,12 +2,12 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { textVariant, fadeIn } from '../utils/motion';
-import { qualities } from '../constants';
+import { attributes } from '../constants';
 import Tilt from 'react-parallax-tilt';
 import { SectionWrapper } from '../hoc';
 
-// qualities from index.js
-const QualityCard = ({ index, title, icon, points }) => {
+// attributes from index.js
+const AttributeCard = ({ index, title, icon, points }) => {
   return (
     <Tilt className="xs:w-[250px] w-full">
       <motion.div
@@ -36,7 +36,7 @@ const QualityCard = ({ index, title, icon, points }) => {
   )
 }
 
-const Strengths = () => {
+const Attributes = () => {
   return (
     <>
       {/* animate the text when scrolling down */}
@@ -47,9 +47,9 @@ const Strengths = () => {
 
       {/* add cards for Qualities component from index.js */}
       <div className="mt-10 flex flex-wrap gap-10">
-        {qualities.map((quality, index) => (
-          <QualityCard key={quality.title} index=
-          {index} {...quality} />
+        {attributes.map((attribute, index) => (
+          <AttributeCard key={attribute.title} index=
+          {index} {...attribute} />
         ))}
       </div>
 
@@ -70,5 +70,5 @@ const Strengths = () => {
   )
 }
 
-// wrap Strengths section with SectionWrapper
-export default SectionWrapper(Strengths, "strengths")
+// wrap Attributes section with SectionWrapper
+export default SectionWrapper(Attributes, "attributes")

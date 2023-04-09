@@ -56,7 +56,7 @@ export const navLinks = [
     title: "Portfolio",
   },
   {
-    id: "strengths",
+    id: "attributes",
     title: "Attributes",
   },
   {
@@ -77,7 +77,7 @@ export const navLinks = [
   },
 ];
 
-const qualities = [
+const attributes = [
   {
     title: "Adaptability",
     icon: web,
@@ -471,4 +471,4 @@ const projects = [
   },
 ];
 
-export { qualities, languages, frameworks, systems, testing, tools, experiences, testimonials, projects };
+export { attributes, languages, frameworks, systems, testing, tools, experiences, testimonials, projects };
