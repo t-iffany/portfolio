@@ -95,7 +95,7 @@ const Contact = () => {
           Connect.
         </h3> */}
 
-        <div className="contact-icons flex flex-row md:flex-col justify-start md:justify-center mb-8 md:mb-0 lg:mt-20 xs:mt-0" style={{ width: "60%", alignItems: "flex-start", flexWrap: "wrap", maxWidth: "100%" }}>
+        <div className="contact-icons flex flex-row md:flex-col justify-start md:justify-center mb-8 md:mb-0 lg:mt-6 xs:mt-6" style={{ width: "60%", alignItems: "flex-start", flexWrap: "wrap", maxWidth: "100%" }}>
           <div className="flex items-center mb-8">
             <FontAwesomeIcon icon={faEnvelope} size="lg" color="#5C9EAD" />
             <span className="ml-4 mr-6 md:mr-0 md:center">tiffanyxleong@gmail.com</span>
@@ -165,7 +165,7 @@ const Contact = () => {
                   value={form.message}
                   onChange={handleChange}
                   placeholder="What's your message?"
-                  className="py-3 px-5 placeholder:text-secondary mb-3
+                  className="py-3 px-5 placeholder:text-secondary mb-2
               text-white rounded-lg outlined-none border-none font-medium"
                   style={{ backgroundColor: "white", width: "100%", maxWidth: "900px" }}
                 />

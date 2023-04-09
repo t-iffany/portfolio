@@ -18,13 +18,13 @@ const About = () => {
       {/* paragraph */}
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[18px] max-w-3xl leading-[30px]"
       >
-        <ul className="list-none" style={{ lineHeight: 1.2 }}>
+        <ul className="list-none" style={{ lineHeight: 1.5 }}>
           <li>I am a Public Health Nurse-transitioned-Developer. &nbsp; 👩🏻‍⚕️ → 👩🏻‍💻 </li><br />
-          <li>I used to code personal webpages as a hobby in my younger years. I often stayed up until at least 3am every night, changing my cursor icon, making stars fall from the top of the page, adding looped music, and trying to learn from "view page source". Unfortunately, at the time, it was not advertised as a "career" to me. </li><br />
-          <li>Fast-forward to my last role as an Informatics Specialist, I realized that I was very interested in how the application and system actually worked. I started self-learning programming online, realized that I truly enjoyed it, and decided to pursue my passion. </li><br />
-          <li>I completed an intensive full-stack web development bootcamp, and I loved every minute of it. And now, here we are!</li> <br />
+          <li>I used to code personal webpages as a hobby. I often stayed up late into the night, changing my cursor icon, making stars fall from the top of the page, adding looped music, and trying to learn from "view page source". Unfortunately, at the time, it was not advertised as a "career" to me. </li><br />
+          <li>Fast-forward to my last role as an Informatics Specialist, I realized that I was very interested in how the applications and systems actually worked. I started self-learning programming online, realized that I truly enjoyed it, and decided to pursue my passion. </li><br />
+          <li>I enrolled in an intensive full-stack web development bootcamp, and I loved every minute of it. And now, here we are!</li> <br />
           <li>Some of my other interests: 🐶 ✈️ 🍦 🤸🏻‍♀️ 🤿 </li>
         </ul>
       </motion.p>

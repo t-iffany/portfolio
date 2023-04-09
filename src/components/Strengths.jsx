@@ -71,4 +71,4 @@ const Strengths = () => {
 }
 
 // wrap Strengths section with SectionWrapper
-export default SectionWrapper(Strengths, "")
+export default SectionWrapper(Strengths, "strengths")
