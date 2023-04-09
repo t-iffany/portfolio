@@ -4,14 +4,13 @@ import { Link } from 'react-router-dom';
 import { styles } from '../styles.js';
 import { navLinks } from '../constants';
 import { menu } from '../assets';
-// import { logo, menu, close } from '../assets';
+import { logo, close } from '../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
 
   return (
-    // <div>navbar</div>
     <nav
       className={`${styles.paddingX} w-full flex
       items-center py-5 fixed top-0 z-20
@@ -29,9 +28,9 @@ const Navbar = () => {
         >
           {/* render logo image in that Link */}
           {/* <img src={logo} alt="logo" className="w-9 h-9 object-contain" /> */}
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Tiffany &nbsp;
-            <span className="sm:block hidden">• &nbsp;Full Stack Developer</span>
+          <p className="text-white text-[18px] font-bold cursor-pointer flex sm:mr-10">
+            Tiffany
+            {/* <span className="sm:block hidden">• &nbsp;Full Stack Developer</span> */}
           </p>
         </Link>
 
