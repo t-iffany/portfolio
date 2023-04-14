@@ -85,7 +85,7 @@ const attributes = [
     title: "Adaptability",
     icon: web,
     points: [
-      "I excel at quickly learning and adapting to new workflows and information systems. As a nurse, I often wear multiple hats while problem solving, and navigating complex situations with accuracy and efficiency."
+      "I quickly learned and adapted to new workflows and information systems. As a nurse, I often wear multiple hats while problem solving, and navigating complex situations with accuracy and efficiency."
     ],
   },
   {
@@ -99,14 +99,14 @@ const attributes = [
     title: "Communication",
     icon: backend,
     points: [
-      "I clearly communicated technical information to a wide range of stakeholders. I have led and coordinated teams, fostering open communication channels and resolving conflicts to achieve team goals.",
+      "I communicated technical information to a wide range of stakeholders. I have led and coordinated teams, fostering open communication channels and resolving conflicts to achieve team goals.",
     ],
   },
   {
     title: "Collaboration",
     icon: creator,
     points: [
-      "I worked effectively with cross-functional teams to deliver successful project outcomes. I am a team player who leverages diverse perspectives and skills to work collaboratively with colleagues.",
+      "I worked with cross-functional teams to deliver successful project outcomes. I am a team player who leverages diverse perspectives and skills to work collaboratively with colleagues.",
     ],
   },
 ];
