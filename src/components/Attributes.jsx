@@ -12,7 +12,7 @@ const AttributeCard = ({ index, title, icon, points }) => {
     <Tilt className="xs:w-[250px] w-full">
       <motion.div
       variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-      className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card h-62"
+      className="w-full green-pink-gradient rounded-[20px] shadow-card h-62"
       >
         <div
           options={{
@@ -20,8 +20,8 @@ const AttributeCard = ({ index, title, icon, points }) => {
             scale: 1,
             speed: 450
           }}
-          className="bg-[#59A7C1] rounded-[20px] py-4 px-12 
-          h-[280px] flex justify-start items-center flex-col w-full"
+          className="bg-[#59A7C1] rounded-[20px] py-3 px-4
+          h-[280px] flex justify-start items-center flex-col w-[260px]"
         >
           {/* <img src={icon} alt={title}
             className="w-16 h-16 object-contain bg-[#59A7C1]"
@@ -29,7 +29,7 @@ const AttributeCard = ({ index, title, icon, points }) => {
           <h3 className="text-white text-[20px] font-bold text-center bg-[transparent] w-full mb-2 w-44" style={{ whiteSpace: "nowrap", textAlign: "center", width: "12em" }}>
             {title}
           </h3>
-          <p className="text-[14px] bg-[transparent] w-40 xs:w-100">{points}</p>
+          <p className="text-[14px] overflow-hidden bg-[transparent] w-40 xs:w-100">{points}</p>
         </div>
       </motion.div>
     </Tilt>
