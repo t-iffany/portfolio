@@ -123,7 +123,7 @@ const Tech = () => {
       <div className="flex flex-row items-center mt-4 gap-4">
         <h3 className="text-[#5C9EAD] text-md font-bold">Tools</h3>
       </div>
-      <div className="flex flex-row flex-wrap justify-start">
+      <div className="flex flex-row flex-wrap justify-start mb-4">
         {tools.map((tool) => (
           <div
             className="w-10 h-10"
