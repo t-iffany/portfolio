@@ -107,7 +107,7 @@ return (
               critical decisions in high-pressure environments
               as a nurse, or solo travelling to foreign places.
               I embrace opportunities to be curious, adapt, and grow.<br /><br />
-              <div className="flex items-start gap-6">
+              <div className="flex items-start gap-6 mb-4">
                 <div className="flex flex-col items-center">
                   <a href="#projects" className="flex items-center" >
                     <button className="text-white hover:text-[#59A7C1] hover:bg-white px-5 py-1 rounded-xl bg-[#59A7C1] mb-1 transition-colors duration-300">Projects</button>
