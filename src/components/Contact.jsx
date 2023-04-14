@@ -103,8 +103,8 @@ const Contact = () => {
 
           <div className="flex items-center">
             <a href="https://www.linkedin.com/in/tiffanyleong/" target="_blank">
-              <FontAwesomeIcon icon={faLinkedin} size="lg" color="#59A7C1" />
-              <span className="ml-4 md:mr-0 md:center">tiffanyleong</span>
+              <FontAwesomeIcon icon={faLinkedin} size="lg" color="#59A7C1" className="hover:text-white"/>
+              <span className="ml-4 md:mr-0 md:center hover:text-[#59A7C1]">tiffanyleong</span>
             </a>
           </div>
 
