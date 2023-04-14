@@ -29,7 +29,7 @@ const Navbar = () => {
           {/* render logo image in that Link */}
           {/* <img src={logo} alt="logo" className="w-9 h-9 object-contain" /> */}
           <p className="text-white text-[18px] font-bold cursor-pointer flex sm:mr-10">
-            Tiffany
+            Tiffany • Portfolio
             {/* <span className="sm:block hidden">• &nbsp;Full Stack Developer</span> */}
           </p>
         </Link>
