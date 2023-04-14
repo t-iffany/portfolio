@@ -9,10 +9,10 @@ import { SectionWrapper } from '../hoc';
 // attributes from index.js
 const AttributeCard = ({ index, title, icon, points }) => {
   return (
-    <Tilt className="xs:w-[250px] w-full h-full">
+    <Tilt className="xs:w-[250px] w-full">
       <motion.div
       variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-      className="w-full h-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
+      className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card h-62"
       >
         <div
           options={{
