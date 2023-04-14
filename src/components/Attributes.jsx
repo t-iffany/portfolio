@@ -29,7 +29,7 @@ const AttributeCard = ({ index, title, icon, points }) => {
           <h3 className="text-white text-[20px] font-bold text-center bg-[transparent] w-full mb-2 w-44" style={{ whiteSpace: "nowrap", textAlign: "center", width: "12em" }}>
             {title}
           </h3>
-          <p className="text-[14px] overflow-hidden bg-[transparent] w-90">{points}</p>
+          <p className="text-[15px] overflow-hidden bg-[transparent] w-90">{points}</p>
         </div>
       </motion.div>
     </Tilt>
