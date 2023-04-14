@@ -17,12 +17,12 @@ const Tech = () => {
 
       {/* Programming languages */}
       <div className="flex flex-row items-center mt-4 gap-4">
-        <h3 className="text-[#5C9EAD] text-lg font-bold">Programming Languages</h3>
+        <h3 className="text-[#5C9EAD] text-md font-bold">Programming Languages</h3>
       </div>
       <div className="flex flex-row flex-wrap justify-start">
         {languages.map((language) => (
           <div
-            className="w-12 h-12"
+            className="w-10 h-10"
             key={language.name}
             style={{ margin: "0.5rem" }}
           >
@@ -41,13 +41,17 @@ const Tech = () => {
       </div>
 
       {/* Frameworks and libraries */}
-      <div className="flex flex-row items-center mt-4 gap-4">
-        <h3 className="text-[#5C9EAD] text-lg font-bold">Frameworks/Libraries/Environments</h3>
+      <div className="flex flex-row items-center mt-4 gap-4 text-[#5C9EAD] text-md font-bold" style={{ maxWidth: "100%" }}>
+        <h3 className="text-[#5C9EAD] text-md font-bold break-words sm:w-auto xs:w-full" style={{ flexWrap: "wrap" }}>
+          Frameworks/Libraries/
+          <br className="xs:hidden" />
+          Environments
+        </h3>
       </div>
       <div className="flex flex-row flex-wrap justify-start">
         {frameworks.map((framework) => (
           <div
-            className="w-12 h-12"
+            className="w-10 h-10"
             key={framework.name}
             style={{ margin: "0.5rem" }}
           >
@@ -67,12 +71,12 @@ const Tech = () => {
 
       {/* Systems, CMS, Databases */}
       <div className="flex flex-row items-center mt-4 gap-4">
-        <h3 className="text-[#5C9EAD] text-lg font-bold">Systems/CMS/Databases</h3>
+        <h3 className="text-[#5C9EAD] text-md font-bold">Systems/CMS/Databases</h3>
       </div>
       <div className="flex flex-row flex-wrap justify-start">
         {systems.map((system) => (
           <div
-            className="w-12 h-12"
+            className="w-10 h-10"
             key={system.name}
             style={{ margin: "0.5rem" }}
           >
@@ -92,12 +96,12 @@ const Tech = () => {
 
       {/* Testing */}
       <div className="flex flex-row items-center mt-4 gap-4">
-        <h3 className="text-[#5C9EAD] text-lg font-bold">Testing</h3>
+        <h3 className="text-[#5C9EAD] text-md font-bold">Testing</h3>
       </div>
       <div className="flex flex-row flex-wrap justify-start">
         {testing.map((testing) => (
           <div
-            className="w-12 h-12"
+            className="w-10 h-10"
             key={testing.name}
             style={{ margin: "0.5rem" }}
           >
@@ -117,12 +121,12 @@ const Tech = () => {
 
       {/* Tools */}
       <div className="flex flex-row items-center mt-4 gap-4">
-        <h3 className="text-[#5C9EAD] text-lg font-bold">Tools</h3>
+        <h3 className="text-[#5C9EAD] text-md font-bold">Tools</h3>
       </div>
       <div className="flex flex-row flex-wrap justify-start">
         {tools.map((tool) => (
           <div
-            className="w-12 h-12"
+            className="w-10 h-10"
             key={tool.name}
             style={{ margin: "0.5rem" }}
           >
