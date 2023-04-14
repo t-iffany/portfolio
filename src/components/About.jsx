@@ -18,7 +18,7 @@ const About = () => {
       {/* paragraph */}
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-tertiary text-[16px] max-w-3xl leading-[30px]"
+        className="mt-4 text-tertiary text-[16px] max-w-3xl leading-[30px] mb-4"
       >
         I am a Public Health Nurse-transitioned-Developer. &nbsp; 👩🏻‍⚕️ → 👩🏻‍💻 <br /><br />
         When I was younger, I enjoyed coding personal webpages as a hobby, spending countless hours changing cursor icons, making stars fall from the top of the page, adding looped music, and trying to learn from "view page source". At the time, however, coding wasn't advertised to me as a potential career path.<br /><br />
