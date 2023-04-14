@@ -108,7 +108,7 @@ return (
               as a nurse, or solo travelling to foreign places.
               I embrace opportunities to be curious, adapt, and grow.<br /><br />
               <div className="flex items-start gap-6">
-                <div className="flex flex-col items-center mb-4">
+                <div className="flex flex-col items-center mb-8">
                   <a href="#projects" className="flex items-center" >
                     <button className="text-white hover:text-[#59A7C1] hover:bg-white px-5 py-1 rounded-xl bg-[#59A7C1] mb-1 transition-colors duration-300">Projects</button>
                   </a>
@@ -121,7 +121,7 @@ return (
                         xmlns="http://www.w3.org/2000/svg"
                         width="20"
                         height="20"
-                        viewBox="0 0 24 30"
+                        viewBox="0 0 24 24"
                         fill="none"
                         stroke="#59A7C1"
                         strokeWidth="4"
