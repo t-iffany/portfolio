@@ -47,6 +47,9 @@ import cerner from "./tech/cerner.png";
 
 import cst from "./company/cst.png";
 import vch from "./company/vch.png";
+import ubc from "./company/ubc.png";
+import lhl from "./company/lhl.png";
+import bcit from "./company/bcit.png";
 
 import zenzonedemo from "../assets/zenzonedemo.mp4";
 import binitdemo from "../assets/binitdemo.mp4";
@@ -110,4 +113,7 @@ export {
   beautisense,
   confluence,
   cerner,
+  ubc,
+  lhl,
+  bcit,
 };

@@ -48,6 +48,9 @@ import {
   jungle,
   scheduler,
   beautisense,
+  ubc,
+  lhl,
+  bcit,
 } from "../assets";
 
 export const navLinks = [
@@ -255,7 +258,7 @@ const experiences = [
   {
     title: "Diploma of Web Development",
     company_name: "Lighthouse Labs",
-    icon: vch,
+    icon: lhl,
     iconBg: "#383E56",
     date: "2022 - Feb 2023",
     points: [
@@ -291,7 +294,7 @@ const experiences = [
   {
     title: "Bachelor of Science in Nursing",
     company_name: "British Columbia Institute of Technology, With Distinction",
-    icon: vch,
+    icon: bcit,
     iconBg: "#383E56",
     date: "2019",
     points: [
@@ -300,7 +303,7 @@ const experiences = [
   {
     title: "Bachelor of Science in Health and Nutrition",
     company_name: "The University of British Columbia",
-    icon: vch,
+    icon: ubc,
     iconBg: "#383E56",
     date: "2015",
     points: [

@@ -15,13 +15,13 @@ const ExperienceCard = ({ experience }) => (
     date={experience.date}
     iconStyle={{ background: experience.iconBg, borderRadius: "50%" }}
     icon={
-      <div className="flex justify-center items-center w-full h-full"
+      <div className="justify-center items-center w-full h-full"
       style={{maxWidth: "none", backgroundColor: "transparent"}}>
         <img
           src={experience.icon}
           alt={experience.company_name}
-          className="w-full h-full object-contain items-center"
-          style={{ backgroundColor: "transparent", objectFit: "cover", borderRadius: "50%"}}
+          className="w-full h-full object-contain"
+          style={{ backgroundColor: "transparent", borderRadius: "100%"}}
         />
       </div>
     }
