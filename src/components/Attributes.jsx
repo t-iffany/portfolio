@@ -56,7 +56,7 @@ const Attributes = () => {
       {/* paragraph */}
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-xs sm:max-w-md md:max-w-lg"
+        className="mt-4 text-tertiary text-[17px] max-w-xs sm:max-w-md md:max-w-lg ml-6"
       >
         <ul className="list-disc mt-12" style={{ lineHeight: 1.2, width: '110%' }}>
           <li>Full Stack Developer experienced in systems implementations</li><br />
