@@ -21,7 +21,7 @@ const AttributeCard = ({ index, title, icon, points }) => {
             speed: 450
           }}
           className="bg-[#59A7C1] rounded-[20px] py-3 px-4
-          h-[280px] flex justify-start items-center flex-col w-[260px]"
+          h-[280px] flex justify-start items-center flex-col w-[290px]"
         >
           {/* <img src={icon} alt={title}
             className="w-16 h-16 object-contain bg-[#59A7C1]"
@@ -29,7 +29,7 @@ const AttributeCard = ({ index, title, icon, points }) => {
           <h3 className="text-white text-[20px] font-bold text-center bg-[transparent] w-full mb-2 w-44" style={{ whiteSpace: "nowrap", textAlign: "center", width: "12em" }}>
             {title}
           </h3>
-          <p className="text-[14px] overflow-hidden bg-[transparent] w-40 xs:w-100">{points}</p>
+          <p className="text-[14px] overflow-hidden bg-[transparent] w-90">{points}</p>
         </div>
       </motion.div>
     </Tilt>
