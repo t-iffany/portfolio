@@ -132,7 +132,7 @@ const Contact = () => {
                   name="name"
                   value={form.name}
                   onChange={handleChange}
-                  placeholder="What's your name?"
+                  // placeholder="What's your name?"
                   className="py-2 px-4 placeholder:text-secondary
               text-black rounded-lg outlined-none border-none font-medium md:w-full lg:w-2/3 xl:w-1/2"
                   style={{ backgroundColor: "white", width: "100%" }}
@@ -148,7 +148,7 @@ const Contact = () => {
                   name="email"
                   value={form.email}
                   onChange={handleChange}
-                  placeholder="What's your email?"
+                  // placeholder="What's your email?"
                   className="py-2 px-4 placeholder:text-secondary
               text-black rounded-lg outlined-none border-none font-medium md:w-full lg:w-2/3 xl:w-1/2"
                   style={{ backgroundColor: "white", width: "100%" }}
@@ -164,7 +164,7 @@ const Contact = () => {
                   name="message"
                   value={form.message}
                   onChange={handleChange}
-                  placeholder="What's your message?"
+                  // placeholder="What's your message?"
                   className="py-2 px-4 placeholder:text-secondary mb-2
               text-black rounded-lg outlined-none border-none font-medium md:w-full lg:w-2/3 xl:w-1/2"
                   style={{ backgroundColor: "white", width: "100%" }}
