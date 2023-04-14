@@ -259,7 +259,6 @@ const experiences = [
     iconBg: "#383E56",
     date: "2022 - Feb 2023",
     points: [
-      
     ],
   },
   {
@@ -269,10 +268,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "2021 - 2022",
     points: [
-      "Software application system implementation",
-      "Project management",
-      "Worked through entire project lifecycle",
+      "Implemented a $800M+ Oracle Cerner system improving healthcare for 1.2M+ people",
+      "Worked through requirements gathering, design, build, validation, adoption",
       "Translated business needs into technical system requirements",
+      "Project management and communicated with stakeholders",
     ],
   },
   {
@@ -283,8 +282,10 @@ const experiences = [
     date: "2020 - Present",
     points: [
       "Team Lead for Mass Immunization Clinics",
+      "Managed staff/volunteers, vaccines, and acted as clinical resource",
       "Team Lead for Case and Contact Tracing",
-      "Infant, Child, and Youth Services",
+      "Supported staff with clinical decisions and presented case reports to Medical Health Officers",
+      "Delivered health promotion, disease prevention, assessment, intervention, and support services",
     ],
   },
   {
