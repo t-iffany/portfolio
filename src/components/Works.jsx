@@ -8,14 +8,10 @@ import '../index.css';
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>
-          My portfolio
-        </p>
-        <h2 className={styles.sectionHeadText}>
-          Projects.
-        </h2>
-      </motion.div>
+      {/* <motion.div variants={textVariant()}> */}
+        <p className={styles.sectionSubText}>My portfolio</p>
+        <h2 className={styles.sectionHeadText}>Projects.</h2>
+      {/* </motion.div> */}
 
       {/* <div className="w-full flex">
         <motion.p
@@ -26,9 +22,9 @@ const Works = () => {
         </motion.p>
       </div> */}
       
-      <motion.p
+      {/* <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-      >
+      > */}
       {/* <div className="max-w-3xl mx-auto px-6"> */}
       <div className="w-full flex mt-8">
         <div className="grid lg:grid-cols-1 gap-6">
@@ -88,7 +84,7 @@ const Works = () => {
           ))}
         </div>
       </div>
-      </motion.p>
+      {/* </motion.p> */}
     </>
   )
 }
