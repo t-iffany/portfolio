@@ -207,3 +207,13 @@
 .timeline-bg {
   background-color: transparent !important;
 }
+
+#typewriter {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker{
+  50%{
+    opacity: 0;
+  }
+}
