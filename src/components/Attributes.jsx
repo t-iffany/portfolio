@@ -21,7 +21,7 @@ const AttributeCard = ({ index, title, icon, points }) => {
             speed: 450
           }}
           className="bg-[#59A7C1] rounded-[20px] py-4 px-12 
-          h-[280px] flex justify-start items-center flex-col w-full h-full"
+          h-[280px] flex justify-start items-center flex-col w-full"
         >
           {/* <img src={icon} alt={title}
             className="w-16 h-16 object-contain bg-[#59A7C1]"
