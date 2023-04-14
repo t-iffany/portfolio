@@ -53,11 +53,11 @@ const Works = () => {
                 <h3 className="text-xl font-semibold mb-2 text-[#59A7C1] mt-2 md:mt-0 lg:mt-0">
                   {project.name}
                 </h3>
-                <ul className="text-white text-[17px] max-w-3xl leading-[30px] list-disc ml-4" style={{ lineHeight: 1.5 }}>
+                <ul className="max-w-3xl leading-[30px] list-disc ml-4" style={{ lineHeight: 1.7 }}>
                   {project.points.map((point, index) => (
                   <li
                     key={`description-point-${index}`}
-                    className="text-white-100 text-[17px] pl-1 tracking-wider"
+                    className="text-tertiary text-[15px] pl-1 tracking-wider"
                   >
                     {point}
                   </li>
