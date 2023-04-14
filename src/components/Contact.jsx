@@ -84,32 +84,32 @@ const Contact = () => {
 
         <motion.div
           variants={slideIn('left', "tween", 0.2, 1)}
-          // className="flex-full bg-[#5C9EAD] p-8 rounded-2xl"
+          // className="flex-full bg-[#59A7C1] p-8 rounded-2xl"
           className="flex flex-col md:flex-row justify-start items-start"
           style={{ display: "flex", justifyContent: "flex-start", maxWidth: "100%", backgroundColor: "transparent" }}
         >
-          {/* <p className={`${styles.sectionSubText} bg-[#5C9EAD]`}>
+          {/* <p className={`${styles.sectionSubText} bg-[#59A7C1]`}>
           Let's
         </p>
-        <h3 className={`${styles.sectionHeadText} bg-[#5C9EAD]`}>
+        <h3 className={`${styles.sectionHeadText} bg-[#59A7C1]`}>
           Connect.
         </h3> */}
 
         <div className="contact-icons flex flex-row md:flex-col justify-start md:justify-center lg:mt-6 xs:mt-6 gap-4 md:mr-4" style={{ alignItems: "flex-start", flexWrap: "wrap", maxWidth: "100%" }}>
           <div className="flex items-center">
-            <FontAwesomeIcon icon={faEnvelope} size="lg" color="#5C9EAD" />
+            <FontAwesomeIcon icon={faEnvelope} size="lg" color="#59A7C1" />
             <span className="ml-4 mr-6 md:mr-0 md:center">tiffanyxleong@gmail.com</span>
           </div>
 
           <div className="flex items-center">
             <a href="https://www.linkedin.com/in/tiffanyleong/" target="_blank">
-              <FontAwesomeIcon icon={faLinkedin} size="lg" color="#5C9EAD" />
+              <FontAwesomeIcon icon={faLinkedin} size="lg" color="#59A7C1" />
               <span className="ml-4 md:mr-0 md:center">tiffanyleong</span>
             </a>
           </div>
 
           <div className="flex items-center">
-            <FontAwesomeIcon icon={faMapMarkerAlt} size="lg" color="#5C9EAD" />
+            <FontAwesomeIcon icon={faMapMarkerAlt} size="lg" color="#59A7C1" />
             <span className="ml-4 mr-6 md:mr-0 md:center">Vancouver, B.C.</span>
           </div>
           
@@ -124,7 +124,7 @@ const Contact = () => {
             >
 
               <label className="flex-col">
-                <span className="text-[#5C9EAD] font-medium mb-2">
+                <span className="text-[#59A7C1] font-medium mb-2">
                   Your Name
                 </span>
                 <input
@@ -140,7 +140,7 @@ const Contact = () => {
               </label>
 
               <label className="flex-col">
-                <span className="font-medium mb-2 text-[#5C9EAD]">
+                <span className="font-medium mb-2 text-[#59A7C1]">
                   Your Email
                 </span>
                 <input
@@ -156,7 +156,7 @@ const Contact = () => {
               </label>
 
               <label className="flex-col">
-                <span className="text-[#5C9EAD] font-medium mb-2">
+                <span className="text-[#59A7C1] font-medium mb-2">
                   Your Message
                 </span>
                 <textarea
@@ -173,7 +173,7 @@ const Contact = () => {
 
               <button
                 type="submit"
-                className="py-1 px-6 outline-none w-fit text-white bg-[#5C9EAD]
+                className="py-1 px-6 outline-none w-fit text-white bg-[#59A7C1]
             font-bold shadow-md shadow-primary rounded-xl"
               >
                 {loading ? 'Sending...' : 'Send'}

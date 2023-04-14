@@ -50,7 +50,7 @@ const Works = () => {
 
               {/* Description and Buttons */}
               <div className="w-full md:w-11/20 flex flex-col px-4 md:pl-8 ">
-                <h3 className="text-xl font-semibold mb-2 text-[#5C9EAD] mt-2 md:mt-0 lg:mt-0">
+                <h3 className="text-xl font-semibold mb-2 text-[#59A7C1] mt-2 md:mt-0 lg:mt-0">
                   {project.name}
                 </h3>
                 <ul className="text-white text-[17px] max-w-3xl leading-[30px] list-disc ml-4" style={{ lineHeight: 1.5 }}>
@@ -66,7 +66,7 @@ const Works = () => {
                 &nbsp;
                 <button
                   onClick={() => window.open(project.source_code_link, "_blank")}
-                  className="cursor-pointer bg-[#5C9EAD] py-2 px-5 outline-none w-fit text-white
+                  className="cursor-pointer bg-[#59A7C1] py-2 px-5 outline-none w-fit text-white
                   font-bold shadow-md shadow-primary rounded-xl"
                 >
                   REPO
@@ -75,7 +75,7 @@ const Works = () => {
                   href={project.source_code_link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-white underline bg-[#5C9EAD]"
+                  className="text-white underline bg-[#59A7C1]"
                 >
                   Repository
                 </a> */}

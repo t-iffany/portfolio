@@ -20,11 +20,11 @@ const AttributeCard = ({ index, title, icon, points }) => {
             scale: 1,
             speed: 450
           }}
-          className="bg-[#5C9EAD] rounded-[20px] py-4 px-12 
+          className="bg-[#59A7C1] rounded-[20px] py-4 px-12 
           h-[280px] flex justify-start items-center flex-col w-full h-full"
         >
           {/* <img src={icon} alt={title}
-            className="w-16 h-16 object-contain bg-[#5C9EAD]"
+            className="w-16 h-16 object-contain bg-[#59A7C1]"
           /> */}
           <h3 className="text-white text-[20px] font-bold text-center bg-[transparent] w-full mb-2 w-44" style={{ whiteSpace: "nowrap", textAlign: "center", width: "12em" }}>
             {title}
