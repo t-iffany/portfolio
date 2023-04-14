@@ -110,7 +110,7 @@ return (
               <div className="flex items-start gap-6">
                 <div className="flex flex-col items-center">
                   <a href="#projects" className="flex items-center" >
-                    <button className="text-white hover:text-[#59A7C1] hover:bg-white px-5 py-1 rounded-2xl bg-[#59A7C1] mb-1">Projects</button>
+                    <button className="text-white hover:text-[#59A7C1] hover:bg-white px-5 py-1 rounded-xl bg-[#59A7C1] mb-1 transition-colors duration-300">Projects</button>
                   </a>
                   <a href="#projects">
                     <motion.div
@@ -135,7 +135,7 @@ return (
                   </a>
                 </div>
                 <a href="#contact" className="flex items-center" >
-                  <button className="text-white hover:text-[#59A7C1] hover:bg-white px-2 py-1 rounded-2xl bg-[#59A7C1]">Contact Me</button>
+                  <button className="text-white hover:text-[#59A7C1] hover:bg-white px-5 py-1 rounded-xl bg-[#59A7C1] transition-colors duration-300">Contact</button>
                 </a>
               </div>
             </p>

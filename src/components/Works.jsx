@@ -66,10 +66,10 @@ const Works = () => {
                 &nbsp;
                 <button
                   onClick={() => window.open(project.source_code_link, "_blank")}
-                  className="cursor-pointer bg-[#59A7C1] py-2 px-5 outline-none w-fit text-white
-                  font-bold shadow-md shadow-primary rounded-xl"
+                  className="cursor-pointer bg-[#59A7C1] py-1 px-6 w-fit text-white text-tertiary
+                  rounded-xl hover:text-[#59A7C1] hover:bg-[#F2F2F2] transition-colors duration-300"
                 >
-                  REPO
+                  Repo
                 </button>
                 {/* <a
                   href={project.source_code_link}
