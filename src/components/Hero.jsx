@@ -32,14 +32,14 @@ return (
     <div className="flex flex-row items-start">
       <div className="hidden md:block line-dot flex flex-col justify-center items-center mt-5 mr-20">
         {/* dot */}
-        <div className="w-5 h-5 rounded-full bg-[#59A7C1]" />
+        <div className="w-5 h-5 rounded-full bg-secondary" />
         {/* line */}
         <div className="w-1 sm:h-80 h-40 blue-gradient" style={{ marginLeft: "9.5px" }} />
       </div>
       <div className="header-body flex flex-col w-full mt-8">
         {/* <div className="header ml-20"> */}
         <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm &nbsp;
-          <span className="text-[#59A7C1]">Tiffany</span>
+          <span className="text-secondary">Tiffany</span>
         </h1>
         <p className={`${styles.heroSubText} mt-2 text-secondary mb-4`}>
           Full Stack Developer
@@ -77,16 +77,16 @@ return (
           <div className="flex flex-col items-center justify-center mr-12">
             <div className="flex flex-row justify-center gap-8">
               <a href="https://www.linkedin.com/in/tiffanyleong/" target="_blank">
-                <FontAwesomeIcon icon={faLinkedin} className="fa-lg w-6 h-6 hover:text-white" color="#59A7C1" />
+                <FontAwesomeIcon icon={faLinkedin} className="fa-lg w-6 h-6 hover:text-white" color="#9FE2BF" />
               </a>
               <a href="https://github.com/t-iffany" target="_blank">
-                <FontAwesomeIcon icon={faGithub} className="fa-lg w-6 h-6 hover:text-white" color="#59A7C1" />
+                <FontAwesomeIcon icon={faGithub} className="fa-lg w-6 h-6 hover:text-white" color="#9FE2BF" />
               </a>
               <a href="https://resume.creddle.io/resume/fg0759bs3gt" target="_blank">
-                <FontAwesomeIcon icon={faFileAlt} className="fa-lg w-6 h-6 hover:text-white" color="#59A7C1" />
+                <FontAwesomeIcon icon={faFileAlt} className="fa-lg w-6 h-6 hover:text-white" color="#9FE2BF" />
               </a>
               <a href="https://devpost.com/t-iffany" target="_blank">
-                <FontAwesomeIcon icon={faDev} className="fa-lg w-6 h-6 hover:text-white" color="#59A7C1" />
+                <FontAwesomeIcon icon={faDev} className="fa-lg w-6 h-6 hover:text-white" color="#9FE2BF" />
               </a>
             </div>
             {/* <div className="flex flex-col justify-center items-center mb-8 md:mb-0"> */}
@@ -110,7 +110,7 @@ return (
               <div className="flex items-start gap-6">
                 <div className="flex flex-col items-center mb-8">
                   <a href="#projects" className="flex items-center" >
-                    <button className="text-white hover:text-[#59A7C1] hover:bg-white px-5 py-1 rounded-xl bg-[#59A7C1] mb-1 transition-colors duration-300">Projects</button>
+                    <button className="text-white hover:text-[#72A38A] hover:bg-white px-5 py-1 rounded-xl bg-[#72A38A] mb-1 transition-colors duration-300">Projects</button>
                   </a>
                   <a href="#projects">
                     <motion.div
@@ -123,7 +123,7 @@ return (
                         height="20"
                         viewBox="0 0 24 24"
                         fill="none"
-                        stroke="#59A7C1"
+                        stroke="#9FE2BF"
                         strokeWidth="4"
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -135,7 +135,7 @@ return (
                   </a>
                 </div>
                 <a href="#contact" className="flex items-center" >
-                  <button className="text-white hover:text-[#59A7C1] hover:bg-white px-5 py-1 rounded-xl bg-[#59A7C1] transition-colors duration-300">Contact</button>
+                  <button className="text-white hover:text-[#72A38A] hover:bg-white px-5 py-1 rounded-xl bg-[#72A38A] transition-colors duration-300">Contact</button>
                 </a>
               </div>
             </p>
