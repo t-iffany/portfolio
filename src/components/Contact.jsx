@@ -97,19 +97,19 @@ const Contact = () => {
 
         <div className="contact-icons flex flex-row md:flex-col justify-start md:justify-center lg:mt-6 xs:mt-6 gap-4 md:mr-4" style={{ alignItems: "flex-start", flexWrap: "wrap", maxWidth: "100%" }}>
           <div className="flex items-center">
-            <FontAwesomeIcon icon={faEnvelope} size="lg" color="#59A7C1" />
+            <FontAwesomeIcon icon={faEnvelope} size="lg" color="#9FE2BF" />
             <span className="ml-4 mr-6 md:mr-0 md:center">tiffanyxleong@gmail.com</span>
           </div>
 
           <div className="flex items-center">
             <a href="https://www.linkedin.com/in/tiffanyleong/" target="_blank">
-              <FontAwesomeIcon icon={faLinkedin} size="lg" color="#59A7C1" className="hover:text-white"/>
-              <span className="ml-4 md:mr-0 md:center hover:text-[#59A7C1]">tiffanyleong</span>
+              <FontAwesomeIcon icon={faLinkedin} size="lg" color="#9FE2BF" className="hover:text-white"/>
+              <span className="ml-4 md:mr-0 md:center hover:text-secondary">tiffanyleong</span>
             </a>
           </div>
 
           <div className="flex items-center">
-            <FontAwesomeIcon icon={faMapMarkerAlt} size="lg" color="#59A7C1" />
+            <FontAwesomeIcon icon={faMapMarkerAlt} size="lg" color="#9FE2BF" />
             <span className="ml-4 mr-6 md:mr-0 md:center">Vancouver, B.C.</span>
           </div>
           
@@ -124,7 +124,7 @@ const Contact = () => {
             >
 
               <label className="flex-col">
-                <span className="text-[#59A7C1] font-medium mb-2">
+                <span className="text-secondary font-medium mb-2">
                   Your Name
                 </span>
                 <input
@@ -140,7 +140,7 @@ const Contact = () => {
               </label>
 
               <label className="flex-col">
-                <span className="font-medium mb-2 text-[#59A7C1]">
+                <span className="font-medium mb-2 text-secondary">
                   Your Email
                 </span>
                 <input
@@ -156,7 +156,7 @@ const Contact = () => {
               </label>
 
               <label className="flex-col">
-                <span className="text-[#59A7C1] font-medium mb-2">
+                <span className="text-secondary font-medium mb-2">
                   Your Message
                 </span>
                 <textarea
@@ -173,8 +173,8 @@ const Contact = () => {
 
               <button
                 type="submit"
-                className="py-1 px-6 outline-none w-fit text-white bg-[#59A7C1]
-                rounded-xl hover:text-[#59A7C1] hover:bg-[#F2F2F2] transition-colors duration-300"
+                className="py-1 px-6 outline-none w-fit text-white bg-[#72A38A]
+                rounded-xl hover:text-[#72A38A] hover:bg-white transition-colors duration-300"
               >
                 {loading ? 'Sending...' : 'Send'}
               </button>
