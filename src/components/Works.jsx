@@ -50,7 +50,7 @@ const Works = () => {
 
               {/* Description and Buttons */}
               <div className="w-full md:w-11/20 flex flex-col px-4 md:pl-8 ">
-                <h3 className="text-xl font-semibold mb-2 text-[#59A7C1] mt-2 md:mt-0 lg:mt-0">
+                <h3 className="text-xl font-semibold mb-2 text-secondary mt-2 md:mt-0 lg:mt-0">
                   {project.name}
                 </h3>
                 <ul className="max-w-3xl leading-[30px] list-disc ml-4" style={{ lineHeight: 1.7 }}>
@@ -66,8 +66,8 @@ const Works = () => {
                 &nbsp;
                 <button
                   onClick={() => window.open(project.source_code_link, "_blank")}
-                  className="cursor-pointer bg-[#59A7C1] py-1 px-6 w-fit text-white text-tertiary
-                  rounded-xl hover:text-[#59A7C1] hover:bg-[#F2F2F2] transition-colors duration-300"
+                  className="cursor-pointer bg-[#72A38A] py-1 px-6 w-fit text-white text-tertiary
+                  rounded-xl hover:text-[#72A38A] hover:bg-[#F2F2F2] transition-colors duration-300"
                 >
                   Repo
                 </button>
