@@ -17,7 +17,7 @@ const Tech = () => {
 
       {/* Programming languages */}
       <div className="flex flex-row items-center mt-4 gap-4">
-        <h3 className="text-[#59A7C1] text-md font-bold">Programming Languages</h3>
+        <h3 className="text-secondary text-md font-bold">Programming Languages</h3>
       </div>
       <div className="flex flex-row flex-wrap justify-start">
         {languages.map((language) => (
@@ -41,8 +41,8 @@ const Tech = () => {
       </div>
 
       {/* Frameworks and libraries */}
-      <div className="flex flex-row items-center mt-4 gap-4 text-[#59A7C1] text-md font-bold" style={{ maxWidth: "100%" }}>
-        <h3 className="text-[#59A7C1] text-md font-bold break-words sm:w-auto xs:w-full" style={{ flexWrap: "wrap" }}>
+      <div className="flex flex-row items-center mt-4 gap-4 text-secondary text-md font-bold" style={{ maxWidth: "100%" }}>
+        <h3 className="text-md font-bold break-words sm:w-auto xs:w-full" style={{ flexWrap: "wrap" }}>
           Frameworks/Libraries/
           <br className="xs:hidden" />
           Environments
@@ -71,7 +71,7 @@ const Tech = () => {
 
       {/* Systems, CMS, Databases */}
       <div className="flex flex-row items-center mt-4 gap-4">
-        <h3 className="text-[#59A7C1] text-md font-bold">Systems/CMS/Databases</h3>
+        <h3 className="text-secondary text-md font-bold">Systems/CMS/Databases</h3>
       </div>
       <div className="flex flex-row flex-wrap justify-start">
         {systems.map((system) => (
@@ -96,7 +96,7 @@ const Tech = () => {
 
       {/* Testing */}
       <div className="flex flex-row items-center mt-4 gap-4">
-        <h3 className="text-[#59A7C1] text-md font-bold">Testing</h3>
+        <h3 className="text-secondary text-md font-bold">Testing</h3>
       </div>
       <div className="flex flex-row flex-wrap justify-start">
         {testing.map((testing) => (
@@ -121,7 +121,7 @@ const Tech = () => {
 
       {/* Tools */}
       <div className="flex flex-row items-center mt-4 gap-4">
-        <h3 className="text-[#59A7C1] text-md font-bold">Tools</h3>
+        <h3 className="text-secondary text-md font-bold">Tools</h3>
       </div>
       <div className="flex flex-row flex-wrap justify-start mb-4">
         {tools.map((tool) => (
