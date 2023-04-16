@@ -34,7 +34,7 @@ return (
         {/* dot */}
         <div className="w-5 h-5 rounded-full bg-secondary" />
         {/* line */}
-        <div className="w-1 sm:h-80 h-40 blue-gradient" style={{ marginLeft: "9.5px" }} />
+        <div className="w-1 sm:h-80 h-40 seafoam-gradient" style={{ marginLeft: "9.5px" }} />
       </div>
       <div className="header-body flex flex-col w-full mt-8">
         {/* <div className="header ml-20"> */}
