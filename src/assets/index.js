@@ -57,6 +57,7 @@ import pawhubdemo from "../assets/pawhubdemo.mp4";
 import jungle from "../assets/jungle.png";
 import scheduler from "../assets/scheduler.png";
 import beautisense from "../assets/beautisense.png";
+import ontherun from "../assets/ontherun.gif";
 
 
 export {
@@ -116,4 +117,5 @@ export {
   ubc,
   lhl,
   bcit,
+  ontherun,
 };

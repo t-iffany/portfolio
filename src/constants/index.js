@@ -51,6 +51,7 @@ import {
   ubc,
   lhl,
   bcit,
+  ontherun,
 } from "../assets";
 
 export const navLinks = [
@@ -426,6 +427,30 @@ const projects = [
     ],
     demo: beautisense,
     source_code_link: "https://devpost.com/software/beautisense",
+  },
+  {
+    name: "On The Run",
+    points: [
+      "Submission for Pygames Hackathon",
+      "A side-scrolling platform game with a multiverse heist theme. Players collect items while being chased, and navigate obstacles to reach the next levels.",
+      "Python, Pygame",
+    ],
+      tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ruby on rails",
+        color: "pink-text-gradient",
+      },
+    ],
+    demo: ontherun,
+    source_code_link: "https://github.com/biancafu/pygame_hackathon",
   },
   {
     name: "Jungle",
