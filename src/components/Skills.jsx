@@ -6,7 +6,7 @@ import { textVariant } from "../utils/motion";
 import { styles } from "../styles";
 import Tilt from "react-parallax-tilt";
 
-const Tech = () => {
+const Skills = () => {
   return (
     <>
       {/* animate the text when scrolling down */}
@@ -145,4 +145,4 @@ const Tech = () => {
   );
 };
 
-export default SectionWrapper(Tech, "skills");
+export default SectionWrapper(Skills, "skills");
