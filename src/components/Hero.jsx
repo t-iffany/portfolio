@@ -100,7 +100,7 @@ return (
             {/* </div> */}
           </div>
 
-          <div className="flex flex-row text-tertiary max-w-xs sm:max-w-md md:max-w-sm xs:mt-4">
+          <div className="flex flex-row text-tertiary max-w-xs sm:max-w-md md:max-w-sm xs:mt-8">
             <p className="text-[16px] leading-6">
               I am comfortable being uncomfortable.
               Whether it is learning new technologies, making
