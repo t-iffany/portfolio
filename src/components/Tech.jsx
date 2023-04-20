@@ -32,7 +32,7 @@ const Tech = () => {
                 alt={language.name}
                 className="w-full h-full object-contain"
               />
-              <div className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-60 text-white text-center opacity-0 transition-opacity hover:opacity-100">
+              <div className="absolute inset-0 flex justify-center items-center bg-[#72A38A] text-[15px] font-semibold objects-contain bg-opacity-60 text-white text-center opacity-0 transition-opacity hover:opacity-100">
                 {language.name}
               </div>
             </Tilt>
@@ -59,7 +59,7 @@ const Tech = () => {
                 alt={framework.name}
                 className="w-full h-full object-contain"
               />
-              <div className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-60 text-white text-center opacity-0 transition-opacity hover:opacity-100">
+              <div className="absolute inset-0 flex justify-center items-center bg-[#72A38A] text-[15px] font-semibold objects-contain bg-opacity-60 text-white text-center opacity-0 transition-opacity hover:opacity-100">
                 {framework.name}
               </div>
             </Tilt>
@@ -84,7 +84,7 @@ const Tech = () => {
                 alt={system.name}
                 className="w-full h-full object-contain"
               />
-              <div className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-60 text-white text-center opacity-0 transition-opacity hover:opacity-100">
+              <div className="absolute inset-0 flex justify-center items-center bg-opacity-60 text-white bg-[#72A38A] text-[15px] font-semibold objects-contain text-center opacity-0 transition-opacity hover:opacity-100">
                 {system.name}
               </div>
             </Tilt>
@@ -109,7 +109,7 @@ const Tech = () => {
                 alt={testing.name}
                 className="w-full h-full object-contain"
               />
-              <div className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-60 text-white text-center opacity-0 transition-opacity hover:opacity-100">
+              <div className="absolute inset-0 flex justify-center items-center bg-[#72A38A] text-[15px] font-semibold objects-contain bg-opacity-60 text-white text-center opacity-0 transition-opacity hover:opacity-100">
                 {testing.name}
               </div>
             </Tilt>
@@ -134,7 +134,7 @@ const Tech = () => {
                 alt={tool.name}
                 className="w-full h-full object-contain"
               />
-              <div className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-60 text-white text-center opacity-0 transition-opacity hover:opacity-100">
+              <div className="absolute inset-0 flex justify-center items-center bg-[#72A38A] text-[15px] font-semibold objects-contain bg-opacity-60 text-white text-center opacity-0 transition-opacity hover:opacity-100">
                 {tool.name}
               </div>
             </Tilt>
