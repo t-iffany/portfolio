@@ -66,7 +66,7 @@ const Works = () => {
                 &nbsp;
                 <button
                   onClick={() => window.open(project.source_code_link, "_blank")}
-                  className="cursor-pointer bg-[#72A38A] py-1 px-6 w-fit text-white text-tertiary
+                  className="cursor-pointer bg-[#72A38A] py-1 px-6 w-fit text-white text-[18px]
                   rounded-xl hover:text-[#72A38A] hover:bg-[#F2F2F2] transition-colors duration-300"
                 >
                   Repo

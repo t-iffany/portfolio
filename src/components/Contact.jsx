@@ -174,7 +174,7 @@ const Contact = () => {
               <button
                 type="submit"
                 className="py-1 px-6 outline-none w-fit text-white bg-[#72A38A]
-                rounded-xl hover:text-[#72A38A] hover:bg-white transition-colors duration-300"
+                rounded-xl text-[18px] hover:text-[#72A38A] hover:bg-white transition-colors duration-300"
               >
                 {loading ? 'Sending...' : 'Send'}
               </button>
