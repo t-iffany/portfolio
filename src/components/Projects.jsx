@@ -5,7 +5,7 @@ import {fadeIn, textVariant } from '../utils/motion';
 import { styles } from '../styles';
 import '../index.css';
 
-const Works = () => {
+const Projects = () => {
   return (
     <>
       {/* <motion.div variants={textVariant()}> */}
@@ -89,4 +89,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works, "projects");
+export default SectionWrapper(Projects, "projects");
