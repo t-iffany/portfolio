@@ -43,9 +43,7 @@ const Tech = () => {
       {/* Frameworks and libraries */}
       <div className="flex flex-row items-center mt-4 gap-4 text-secondary text-md font-bold" style={{ maxWidth: "100%" }}>
         <h3 className="text-md font-bold break-words sm:w-auto xs:w-full" style={{ flexWrap: "wrap" }}>
-          Frameworks/Libraries/
-          <br className="xs:hidden" />
-          Environments
+          Frameworks/Libraries/Environments
         </h3>
       </div>
       <div className="flex flex-row flex-wrap justify-start">
