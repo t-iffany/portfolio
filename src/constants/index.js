@@ -349,13 +349,13 @@ const projects = [
       },
     ],
     demo: ontherun,
-    source_code_link: "https://github.com/biancafu/pygame_hackathon",
+    source_code_link: "https://devpost.com/software/multiverse-chase",
   },
   {
     name: "ZenZone 3D",
     points: [
       "nWPlus cmd-f 24-hour Hackathon", 
-      "🏆 2nd Place Winner out of 44 projects + Most Creative Use of Twilio Award + Best Use of Cohere API Award",
+      "🏆 2nd Place Winner + Most Creative Use of Twilio Award + Best Use of Cohere API Award",
       `An interactive 3D game that promotes mental health and wellness. 
       We use AI technology to reframe users' worries or stressors into positive and constructive affirmations. 
       Users can explore the 3D environment using their avatar. Text notification reminders are sent to users to be aware 
