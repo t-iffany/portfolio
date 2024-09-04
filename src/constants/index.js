@@ -52,6 +52,7 @@ import {
   lhl,
   bcit,
   ontherun,
+  panther,
 } from "../assets";
 
 export const navLinks = [
@@ -259,7 +260,7 @@ const experiences = [
   {
     title: "Technical Support Engineer II",
     company_name: "Panther Labs",
-    // icon: panther ,
+    icon: panther,
     iconBg: "#383E56",
     date: "2024 - Present",
     points: [
@@ -281,7 +282,7 @@ const experiences = [
   {
     title: "Technical Support Engineer",
     company_name: "Panther Labs",
-    // icon: panther ,
+    icon: panther,
     iconBg: "#383E56",
     date: "2023 - 2024",
     points: [
