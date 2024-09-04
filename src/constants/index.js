@@ -257,6 +257,19 @@ const tools = [
 
 const experiences = [
   {
+    title: "Technical Support Engineer II",
+    company_name: "Panther Labs",
+    // icon: panther ,
+    iconBg: "#383E56",
+    date: "2024 - Present",
+    points: [
+      "Mentored less tenured team members and raised collective skillset of the team",
+      "Led incident response management efforts, coordinating with cross-functional teams and serving as communications manager to ensure timely, effective communication of critical issues",
+      "Consistently exceeded expectations as the top contributor to knowledge base and ticket volume while maintaining customer satisfaction ratings",
+      "Created technical documentation for technical resolutions, internal guides, product features, and best practices for continuous improvement",
+    ],
+  },
+  {
     title: "Knowledge-Centered Service (KCS) v6 Fundamentals Certification ",
     company_name: "Consortium for Service Innovation",
     // icon: kcs,
