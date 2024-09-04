@@ -257,6 +257,20 @@ const tools = [
 
 const experiences = [
   {
+    title: "Technical Support Engineer",
+    company_name: "Panther Labs",
+    // icon: panther ,
+    iconBg: "#383E56",
+    date: "2023 - 2024",
+    points: [
+      "Troubleshooted and resolved technical customer issues related to Panther platform, third-party integrations, Python detections, SQL queries",
+      "Provided exceptional support and built strong working relationships with customers",
+      "Collaborated with product engineers to identify and develop creative solutions to complex technical problems",
+      "Advocated for customer needs by bridging communication gaps, shared insights with cross-functional stakeholders to drive product impact and enhance user experiences",
+      "Reduced ticket resolution times by leveraging Knowledge Centered Service (KCS) methodology to streamline processes and improve knowledge sharing",
+    ],
+  },
+  {
     title: "Diploma of Web Development",
     company_name: "Lighthouse Labs",
     icon: lhl,
