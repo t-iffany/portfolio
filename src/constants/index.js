@@ -53,6 +53,7 @@ import {
   bcit,
   ontherun,
   panther,
+  kcs,
 } from "../assets";
 
 export const navLinks = [
@@ -273,7 +274,7 @@ const experiences = [
   {
     title: "Knowledge-Centered Service (KCS) v6 Fundamentals Certification ",
     company_name: "Consortium for Service Innovation",
-    // icon: kcs,
+    icon: kcs,
     iconBg: "#383E56",
     date: "Feb 2024",
     points: [

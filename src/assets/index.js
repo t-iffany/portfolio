@@ -51,6 +51,7 @@ import ubc from "./company/ubc.png";
 import lhl from "./company/lhl.png";
 import bcit from "./company/bcit.png";
 import panther from "./company/panther.png";
+import kcs from "./company/kcs.png";
 
 import zenzonedemo from "../assets/zenzonedemo.mp4";
 import binitdemo from "../assets/binitdemo.mp4";
@@ -120,4 +121,5 @@ export {
   bcit,
   ontherun,
   panther,
+  kcs,
 };
